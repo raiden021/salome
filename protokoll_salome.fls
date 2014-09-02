@@ -191,6 +191,12 @@ INPUT kap01.tex
 INPUT ./salome-aufbau.png
 INPUT ./salome-aufbau.png
 INPUT ./salome-aufbau.png
+INPUT ./dipol.png
+INPUT ./dipol.png
+INPUT ./dipol.png
+INPUT ./quadropol.png
+INPUT ./quadropol.png
+INPUT ./quadropol.png
 OUTPUT kap02.aux
 INPUT kap02.tex
 INPUT kap02.tex

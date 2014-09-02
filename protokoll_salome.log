@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  2 SEP 2014 22:50
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  2 SEP 2014 23:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -502,24 +502,46 @@ File: ./salome-aufbau.png Graphic file (type png)
  <use ./salome-aufbau.png>
 Package pdftex.def Info: ./salome-aufbau.png used on input line 11.
 (pdftex.def)             Requested size: 352.81552pt x 146.96202pt.
-) [1
 
 
- <./salome-aufbau.png>]
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 17.
+
+<./dipol.png, id=19, 300.12125pt x 234.8775pt>
+File: ./dipol.png Graphic file (type png)
+ <use ./dipol.png>
+Package pdftex.def Info: ./dipol.png used on input line 18.
+(pdftex.def)             Requested size: 176.40439pt x 138.06042pt.
+
+<./quadropol.png, id=20, 396.48125pt x 393.47pt>
+File: ./quadropol.png Graphic file (type png)
+ <use ./quadropol.png>
+Package pdftex.def Info: ./quadropol.png used on input line 18.
+(pdftex.def)             Requested size: 176.40439pt x 175.06657pt.
+)
+Overfull \hbox (11.40953pt too wide) in paragraph at lines 15--49
+[]\OT1/cmr/m/n/12 Der Teil-chen-be-schleu-ni-ger ve-steht aus ei-nem Ka-tho-den
+-strah-ler zur Er-zeu-gung des Strahls,
+ []
+
+[1
+
+
+ <./salome-aufbau.png>] [2 <./dipol.png> <./quadropol.png>]
 \openout2 = `kap02.aux'.
 
  (./kap02.tex
 Kapitel 2.
-) [2
+[3
 
 
 
-] [3]
+]) [4]
 \openout2 = `kap03.aux'.
 
  (./kap03.tex
 Kapitel 3.
-) [4
+) [5
 
 
 
@@ -528,7 +550,7 @@ Kapitel 3.
 
  (./kap04.tex
 Kapitel 4.
-) [5
+) [6
 
 
 
@@ -537,7 +559,7 @@ Kapitel 4.
 
  (./kap05.tex
 Kapitel 5.
-) [6
+) [7
 
 
 
@@ -546,7 +568,7 @@ Kapitel 5.
 
  (./kap06.tex
 Kapitel 6.
-) [7
+) [8
 
 
 
@@ -555,17 +577,17 @@ Kapitel 6.
 
  (./literatur.tex
 Kapitel 7.
-) [8
+) [9
 
 
 
 ] (./protokoll_salome.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
 (./kap03.aux) (./kap04.aux) (./kap05.aux) (./kap06.aux) (./literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 5357 strings out of 493633
- 76228 string characters out of 3143378
- 173062 words of memory out of 3000000
- 8483 multiletter control sequences out of 15000+200000
+ 5367 strings out of 493633
+ 76392 string characters out of 3143378
+ 175063 words of memory out of 3000000
+ 8491 multiletter control sequences out of 15000+200000
  13952 words of font info for 54 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  47i,12n,47p,256b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -580,10 +602,10 @@ texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
 e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on protokoll_salome.pdf (12 pages, 200318 bytes).
+Output written on protokoll_salome.pdf (13 pages, 314044 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

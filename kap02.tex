@@ -1,8 +1,8 @@
 \chapter{Energiemessung}
 
-Zunächst wollen wir eine sogenannte Energiemessung des
+Zuerst führen wir eine Energiemessung des
 Elektronenstrahls mithilfe
-eines Dipolmagneten durchführen. Die
+eines Dipolmagneten durch. Die
 Elektronen, aus dem der Strahl besteht, werden
 am Anfang des Beschleunigers thermisch durch die Kathode erzeugt
 und erhalten so ihre kinetische Energie und ihren Impulsbetrag,
@@ -10,7 +10,7 @@ die sie von da an behalten, da sie im Beschleuniger nur mit den
 Feldern der Dipol- und Quadrupolmagnete über die Lorentzkraft
 wechselwirken.
 
-Dies geschieht, indem der Zusammenhang zwischen
+Die Energiemessung geschieht, indem der Zusammenhang zwischen
 Ablenkung durch einen der Dipole und Stärke des Dipols gemessen
 wird, da erstere theoretisch linear von der letzteren abhängt.
 Genauer gilt:
@@ -35,9 +35,23 @@ Dann gilt:
 	                    {\kappa m_e c |\frac{dx}{dI}|}
 \end{equation}
 
-Wir messen eine Reihe von Wertepaaren für $I$ und $x$ (siehe Tabelle
-\ref{tab:dipolabl}),
-ermitteln mithilfe linearer Regression einen Wert für $\frac{dx}{dI}$,
+Wir messen eine Reihe von Wertepaaren für $I$ und $x$, indem wir zuerst mit Blick
+auf das Kamerabild des Schirms 3 ein Intervall für den Dipolstrom $I$ aussuchen,
+bei dem der Strahl ganz auf dem Schirm zu sehen ist. Dann messen wir für
+$(0,05\text{ A})$-Schritte innerhalb dieses Intervalls Werte für $x$
+mit den Messergebnissen,
+die in Tabelle \ref{tab:dipolabl} dargestellt sind. Die Messung wird dabei so
+durchgeführt, dass zuerst der Strahl ganz vom Schirm abgelenkt wird, indem der Strom
+des horizontalen Dipols V14NJ um 1 A verstellt wird. Dann wird von der Kamera ein
+Bild aufgenommen (durch Mittelung über 50 frames), welches im Folgenden als
+Hintergrund von den Bildern mit Strahl abgezogen wird. Das Bildanalyse-Programm
+ermittelt
+dann jeweils nach Mittelung über 20 frames die $x$-Position des Intensitätsmaximums,
+welches der Strahlmitte entspricht, nachdem mit der Maus ein enger Bereich um
+den Strahlfleck im Kamerabild abgegrenzt wird.
+
+Aus den Messwerten in Tabelle \ref{tab:dipolabl} ermitteln wir mithilfe
+linearer Regression einen Wert für $\frac{dx}{dI}$,
 woraus wir mit \eqref{eq:dipolabl} einen Wert für $\beta \gamma$ erhalten.
 Dieser ist $\beta\gamma = 0,1675$. Für $\gamma = \sqrt{1+\beta^2\gamma^2}$
 erhalten wir damit $\gamma = 1,014$.
@@ -46,7 +60,7 @@ erhalten wir damit $\gamma = 1,014$.
 \centering
 \begin{tabular}{| >{$}c<{$} >{$}c<{$} |}
 \hline
-I [A]	&		x [mm]	 \\ [0.2ex]
+I\text{ [A]}	&		x\text{ [mm]}	 \\ [0.2ex]
 \hline\hline
 -3,50	&		4,07	 \\
 -3,45	&		3,41	 \\
@@ -78,5 +92,8 @@ I [A]	&		x [mm]	 \\ [0.2ex]
 
 Da $\gamma = \frac{E}{m_e c^2} = 1 + \frac{E_{\text{kin}}}{m_e c^2}$ gilt,
 wenn $E$ die Gesamtenergie des einzelnen Elektrons ist, erhalten wir
-schliesslich für seine kinetische Energie $E_{\text{kin}} = 7,121 \text{ keV}$
+schliesslich für seine kinetische Energie $E_{\text{kin}} = 7,121 \text{ keV}$,
+wobei wir den Literaturwert $m_e c^2 = 511\text{ keV}$ verwenden. Wir erhalten
+dann für den Impuls
+$p = m_e c^2 \gamma \beta \frac{1}{c} = 85,61\frac{1}{\text{c}} \text{keV}$.
 
