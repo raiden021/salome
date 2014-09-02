@@ -25,7 +25,9 @@ sein kann, falls $x_0$ so ist, dass die Ablenkung durch den Dipol
 den Strahl näher in die Mitte des Strahlrohrs versetzt.) $I$ ist der
 Strom des Dipols, der proportional zur Dipolstärke
 mit Faktor $\kappa$ ist. Sei $v$ die Geschwindigkeit der auf den
-Schirm treffenden Elektronen, $\beta := \frac{v}{c}$, $c$ die Lichtgeschwindigkeit und $\gamma := \frac{1}{\sqrt{1-\beta^2}}$.
+Schirm treffenden Elektronen, $\beta := \frac{v}{c}$, $c$ die Lichtgeschwindigkeit,
+$\gamma := \frac{1}{\sqrt{1-\beta^2}}$, $m_e$ die Elektronenmasse und $e$
+die Elementarladung.
 Dann gilt:
 
 \begin{equation} \label{eq:dipolabl}
@@ -33,9 +35,12 @@ Dann gilt:
 	                    {\kappa m_e c |\frac{dx}{dI}|}
 \end{equation}
 
-Wir messen eine Reihe von Wertepaaren für $I$ und $x$, ermitteln mithilfe
-linearer Regression einen Wert für $\frac{dx}{dI}$ und erhalten
-daraus mit \eqref{eq:dipolabl} einen Wert für $\beta \gamma$.
+Wir messen eine Reihe von Wertepaaren für $I$ und $x$ (siehe Tabelle
+\ref{tab:dipolabl}),
+ermitteln mithilfe linearer Regression einen Wert für $\frac{dx}{dI}$,
+woraus wir mit \eqref{eq:dipolabl} einen Wert für $\beta \gamma$ erhalten.
+Dieser ist $\beta\gamma = 0,1675$. Für $\gamma = \sqrt{1+\beta^2\gamma^2}$
+erhalten wir damit $\gamma = 1,014$.
 
 \begin{table}[ht]
 \centering
@@ -66,5 +71,12 @@ I [A]	&		x [mm]	 \\ [0.2ex]
 -2,50	&		-10,17	 \\
 \hline
 \end{tabular}
-\caption{Messung des horizontalen Versatzes $x$ auf dem Schirm }
+\caption{Messung des horizontalen Versatzes $x$ auf Schirm 3 bei Ablenkung
+		durch den Dipol H15Match betrieben mit Strom $I$.}
+	\label{tab:dipolabl}
 \end{table}
+
+Da $\gamma = \frac{E}{m_e c^2} = 1 + \frac{E_{\text{kin}}}{m_e c^2}$ gilt,
+wenn $E$ die Gesamtenergie des einzelnen Elektrons ist, erhalten wir
+schliesslich für seine kinetische Energie $E_{\text{kin}} = 7,121 \text{ keV}$
+
