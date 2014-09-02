@@ -1,5 +1,4 @@
 \chapter{Energiemessung}
-\section{}
 
 Zunächst wollen wir die sogenannte Energiemessung des
 Elektronenstrahls durchführen. Die
@@ -18,14 +17,19 @@ Genauer gilt:
 Sei $L_{eff}$ die Länge des Einflussbereichs des Dipols, sei dahinter
 eine Driftstrecke mit Länge $L_{drift}$ und am Ende ein Schirm. Sei
 $x$ der Versatz des Strahls auf dem Schirm in die Richtung,
-in die er vom Dipol abgelenkt wird, und $\frac{dx}{dI}$ die
-Proportionalitätskonstante zwischen $x$ und $I$, wobei $I$ der
-Strom des Dipols ist, der nämlich selber proportional zur Dipolstärke
-ist. Sei $v$ die Geschwindigkeit der auf den Schirm treffenden
-Elektronen, $\beta := \frac{v}{c}$ mit der Lichtgeschwindigkeit $c$
-und $\gamma := \frac{1}{\sqrt{1-\beta^2}}$. Dann gilt:
+in die er vom Dipol abgelenkt wird, und $\frac{dx}{dI}$ der
+lineare Faktor zwischen $x$ und $I$, wobei $I$ der
+Strom des Dipols ist, der selber proportional zur Dipolstärke
+mit Faktor $\kappa$ ist. Sei $v$ die Geschwindigkeit der auf den
+Schirm treffenden Elektronen, $\beta := \frac{v}{c}$ mit der
+Lichtgeschwindigkeit $c$ und $\gamma := \frac{1}{\sqrt{1-\beta^2}}$.
+Dann gilt:
 
-
-\begin{equation}
-	\beta \gamma = \frac{e \kappa L_{drift}}{m_e c \frac{dx}{dI}}
+\begin{equation} \label{eq:dipolabl}
+	\beta \gamma = \frac{e L_{eff} L_{drift} }
+	                    {\kappa m_e c |\frac{dx}{dI}|}
 \end{equation}
+
+Wir messen mehrere Wertepaare für $I$ und $x$, ermitteln mithilfe
+linearer Regression einen Wert für $\frac{dx}{dI}$ und bekommen
+daraus mit \eqref{eq:dipolabl} einen Wert für $\beta \gamma$.
