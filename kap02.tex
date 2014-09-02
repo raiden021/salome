@@ -1,7 +1,8 @@
 \chapter{Energiemessung}
 
-Zunächst wollen wir die sogenannte Energiemessung des
-Elektronenstrahls durchführen. Die
+Zunächst wollen wir eine sogenannte Energiemessung des
+Elektronenstrahls mithilfe
+eines Dipolmagneten durchführen. Die
 Elektronen, aus dem der Strahl besteht, werden
 am Anfang des Beschleunigers thermisch durch die Kathode erzeugt
 und erhalten so ihre kinetische Energie und ihren Impulsbetrag,
@@ -17,12 +18,14 @@ Genauer gilt:
 Sei $L_{eff}$ die Länge des Einflussbereichs des Dipols, sei dahinter
 eine Driftstrecke mit Länge $L_{drift}$ und am Ende ein Schirm. Sei
 $x$ der Versatz des Strahls auf dem Schirm in die Richtung,
-in die er vom Dipol abgelenkt wird, und $\frac{dx}{dI}$ der
-lineare Faktor zwischen $x$ und $I$, wobei $I$ der
-Strom des Dipols ist, der selber proportional zur Dipolstärke
+in die er vom Dipol abgelenkt wird. Es gilt dann
+$x = x_0 + \frac{dx}{dI} I$, wobei $x_0$ der Versatz auf dem Schirm
+ohne Wirkung des Dipols ist. (Man bedenke, dass $\frac{dx}{dI}$ negativ
+sein kann, falls $x_0$ so ist, dass die Ablenkung durch den Dipol
+den Strahl näher in die Mitte des Strahlrohrs versetzt.) $I$ ist der
+Strom des Dipols, der proportional zur Dipolstärke
 mit Faktor $\kappa$ ist. Sei $v$ die Geschwindigkeit der auf den
-Schirm treffenden Elektronen, $\beta := \frac{v}{c}$ mit der
-Lichtgeschwindigkeit $c$ und $\gamma := \frac{1}{\sqrt{1-\beta^2}}$.
+Schirm treffenden Elektronen, $\beta := \frac{v}{c}$, $c$ die Lichtgeschwindigkeit und $\gamma := \frac{1}{\sqrt{1-\beta^2}}$.
 Dann gilt:
 
 \begin{equation} \label{eq:dipolabl}
@@ -30,6 +33,6 @@ Dann gilt:
 	                    {\kappa m_e c |\frac{dx}{dI}|}
 \end{equation}
 
-Wir messen mehrere Wertepaare für $I$ und $x$, ermitteln mithilfe
-linearer Regression einen Wert für $\frac{dx}{dI}$ und bekommen
+Wir messen eine Reihe von Wertepaaren für $I$ und $x$, ermitteln mithilfe
+linearer Regression einen Wert für $\frac{dx}{dI}$ und erhalten
 daraus mit \eqref{eq:dipolabl} einen Wert für $\beta \gamma$.
