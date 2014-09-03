@@ -23,8 +23,9 @@ $x = x_0 + \frac{dx}{dI} I$, wobei $x_0$ der Versatz auf dem Schirm
 ohne Wirkung des Dipols ist. (Man bedenke, dass $\frac{dx}{dI}$ negativ
 sein kann, falls $x_0$ so ist, dass die Ablenkung durch den Dipol
 den Strahl näher in die Mitte des Strahlrohrs versetzt.) $I$ ist der
-Strom des Dipols, der proportional zur Dipolstärke
-mit Faktor $\kappa$ ist. Sei $v$ die Geschwindigkeit der auf den
+Strom des Dipols und dieser ist proportional zur Dipolfeldstärke $B$.
+Es gibt also ein $\kappa$ so, dass $\kappa I = B L_{eff}$.
+Sei $v$ die Geschwindigkeit der auf den
 Schirm treffenden Elektronen, $\beta := \frac{v}{c}$, $c$ die Lichtgeschwindigkeit,
 $\gamma := \frac{1}{\sqrt{1-\beta^2}}$, $m_e$ die Elektronenmasse und $e$
 die Elementarladung.
@@ -53,8 +54,11 @@ den Strahlfleck im Kamerabild abgegrenzt wird.
 Aus den Messwerten in Tabelle \ref{tab:dipolabl} ermitteln wir mithilfe
 linearer Regression einen Wert für $\frac{dx}{dI}$,
 woraus wir mit \eqref{eq:dipolabl} einen Wert für $\beta \gamma$ erhalten.
-Dieser ist $\beta\gamma = 0,1675$. Für $\gamma = \sqrt{1+\beta^2\gamma^2}$
-erhalten wir damit $\gamma = 1,014$.
+Wir finden $\frac{dx}{dI} = -0,0147 \pm 0,0002 \frac{\text{m}}{\text{A}}$ 
+(siehe hierzu auch Abbildung \ref{linreg}) und
+daraus mit Fehlerfortpflanzung $\beta\gamma = 0,168 \pm 0,002$.
+Wegen $\gamma = \sqrt{1+\beta^2\gamma^2}$
+erhalten wir damit $\gamma = 1,0139 \pm 0,0004$.
 
 \begin{table}[ht]
 \centering
@@ -90,10 +94,18 @@ I\text{ [A]}	&		x\text{ [mm]}	 \\ [0.2ex]
 	\label{tab:dipolabl}
 \end{table}
 
+\begin{figure}[ht]
+    \includegraphics[width=1\textwidth]{./energiemessung.pdf}
+	\caption{Messwerte aus Tabelle \ref{tab:dipolabl} mit Regressionsgerade
+	gegeben durch $x = -0,0147 \cdot I - 0,0472$.} \label{linreg}
+\end{figure}
+
 Da $\gamma = \frac{E}{m_e c^2} = 1 + \frac{E_{\text{kin}}}{m_e c^2}$ gilt,
 wenn $E$ die Gesamtenergie des einzelnen Elektrons ist, erhalten wir
-schliesslich für seine kinetische Energie $E_{\text{kin}} = 7,121 \text{ keV}$,
+schliesslich für seine kinetische Energie $E_{\text{kin}} = 7,1 \pm 0,2
+\text{ keV}$,
 wobei wir den Literaturwert $m_e c^2 = 511\text{ keV}$ verwenden. Wir erhalten
 dann für den Impuls
-$p = m_e c^2 \gamma \beta \frac{1}{c} = 85,61\frac{1}{\text{c}} \text{keV}$.
+$p = m_e c^2 \gamma \beta \frac{1}{c} = 85,6 \pm 1,2 
+\frac{1}{\text{c}} \text{keV}$.
 

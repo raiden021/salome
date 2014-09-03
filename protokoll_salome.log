@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  2 SEP 2014 23:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  3 SEP 2014 23:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -532,16 +532,22 @@ Overfull \hbox (11.40953pt too wide) in paragraph at lines 15--49
 
  (./kap02.tex
 Kapitel 2.
+<./energiemessung.pdf, id=30, 361.35pt x 252.945pt>
+File: ./energiemessung.pdf Graphic file (type pdf)
+ <use ./energiemessung.pdf>
+Package pdftex.def Info: ./energiemessung.pdf used on input line 98.
+(pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
+
 [3
 
 
 
-]) [4]
+]) [4] [5 <./energiemessung.pdf>]
 \openout2 = `kap03.aux'.
 
  (./kap03.tex
 Kapitel 3.
-) [5
+) [6
 
 
 
@@ -550,7 +556,7 @@ Kapitel 3.
 
  (./kap04.tex
 Kapitel 4.
-) [6
+) [7
 
 
 
@@ -559,7 +565,7 @@ Kapitel 4.
 
  (./kap05.tex
 Kapitel 5.
-) [7
+) [8
 
 
 
@@ -568,7 +574,7 @@ Kapitel 5.
 
  (./kap06.tex
 Kapitel 6.
-) [8
+) [9
 
 
 
@@ -577,17 +583,17 @@ Kapitel 6.
 
  (./literatur.tex
 Kapitel 7.
-) [9
+) [10
 
 
 
 ] (./protokoll_salome.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
 (./kap03.aux) (./kap04.aux) (./kap05.aux) (./kap06.aux) (./literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 5367 strings out of 493633
- 76392 string characters out of 3143378
- 175063 words of memory out of 3000000
- 8491 multiletter control sequences out of 15000+200000
+ 5373 strings out of 493633
+ 76517 string characters out of 3143378
+ 176074 words of memory out of 3000000
+ 8496 multiletter control sequences out of 15000+200000
  13952 words of font info for 54 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  47i,12n,47p,256b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -602,10 +608,10 @@ texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
 e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on protokoll_salome.pdf (13 pages, 314044 bytes).
+Output written on protokoll_salome.pdf (14 pages, 322792 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

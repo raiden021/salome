@@ -200,6 +200,9 @@ INPUT ./quadropol.png
 OUTPUT kap02.aux
 INPUT kap02.tex
 INPUT kap02.tex
+INPUT ./energiemessung.pdf
+INPUT ./energiemessung.pdf
+INPUT ./energiemessung.pdf
 OUTPUT kap03.aux
 INPUT kap03.tex
 INPUT kap03.tex
