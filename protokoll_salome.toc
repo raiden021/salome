@@ -2,6 +2,7 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
 \contentsline {section}{\numberline {1.1}Aufbau}{1}
 \contentsline {chapter}{\numberline {2}Energiemessung}{3}
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {3}Emittanzmessung}{6}
 \contentsline {section}{\numberline {3.1}Messung durch Variation des Quadrupolstroms}{6}
 \contentsline {section}{\numberline {3.2}Messung durch Variation der Schirme}{6}
@@ -11,4 +12,6 @@
 \contentsline {section}{\numberline {5.1}}{8}
 \contentsline {chapter}{\numberline {6}}{9}
 \contentsline {section}{\numberline {6.1}}{9}
+=======
+>>>>>>> f82b972453e4d4ed1994af0bc46bd24fea319c6b
 \contentsline {chapter}{\numberline {7}Literaturverzeichnis}{10}
