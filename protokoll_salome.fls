@@ -204,6 +204,7 @@ INPUT ./energiemessung.pdf
 OUTPUT kap03.aux
 INPUT kap03.tex
 INPUT kap03.tex
+INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 OUTPUT kap04.aux
 INPUT kap04.tex
 INPUT kap04.tex
@@ -243,3 +244,4 @@ INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb

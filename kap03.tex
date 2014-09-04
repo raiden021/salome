@@ -1,9 +1,10 @@
 \chapter{Emittanzmessung}
 
 An jedem Punkt $z$ entlang des Orbits hat der Elektronenstrahl
-unter Anderem die Größen $\langle x^2\rangle(z)$, $\langle xx'\rangle(z)$,
-$\langle x'^2\rangle(z)$, bzw.
-$\langle y^2\rangle(z)$, $\langle yy'\rangle(z)$, $\langle y'^2\rangle(z)$. Wenn
+unter Anderem die Größen $\langle x^2\rangle(z)$,
+$\langle xx'\rangle(z)$ und $\langle x'^2\rangle(z)$, bzw.
+$\langle y^2\rangle(z)$, $\langle yy'\rangle(z)$ und
+$\langle y'^2\rangle(z)$. Wenn
 $R = \bigl(\begin{smallmatrix} R_{11}&R_{12}\\ R_{21}&R_{22}
 \end{smallmatrix} \bigr)$ die Transformationsmatrix der Größen $x$
 und $x'$ eines einzelnen Elektrons von $z_0$ zu $z_1$ ist,
@@ -16,17 +17,20 @@ dann gilt
 \end{equation}
 und es gilt Analoges für $y$.
 
-Für die entlang des Orbits erhaltene Emittanz $\eps$ gilt
-\begin{equation}
-		\eps = \sqrt{\langle x^2\rangle(z)\langle x'^2\rangle(z)
-		- \langle xx'\rangle(z)^2} \quad \forall z
+Für die entlang des Orbits erhaltene normierte Emittanz $\eps_{x,n}$ gilt
+\begin{equation} \label{eq:normemit}
+		\eps_{x,n}
+		= \beta\gamma\sqrt{\langle x^2\rangle(z)\langle x'^2\rangle(z)
+		  - \langle xx'\rangle(z)^2} \quad \forall z
 \end{equation}
 
 Wir werden hierzu die Größen $a_1 := \langle x^2\rangle$, $a_2 := \langle
 xx'\rangle$ und
-$a_3 := \langle x'^2\rangle$ (und alles Folgende analog für $y$) direkt vor dem
+$a_3 := \langle x'^2\rangle$ (und alles Folgende analog für $y$) einmal direkt
+vor dem
 Quadrupolmagneten
-V46MATCH bestimmen und daraus dann die transversalen Emittanzen $\eps_x$ und
+V46MATCH und einmal an Schirm 2 bestimmen und daraus dann jeweils die
+transversalen Emittanzen $\eps_x$ und
 $\eps_y$ und ihre normierten Varianten $\eps_{x,n}$ und $\eps_{y,n}$ erhalten.
 
 Für ersteres werden wir den Elektronenstrahl $n$-mal auf verschiedene Weise
@@ -34,7 +38,7 @@ transformieren (über verschiedene Strecken oder Optiken), wobei $b_i$
 die Größe $\langle x^2\rangle$ nach der $i$-ten Transformation und
 $R^{(i)}$ die entsprechende Transformationsmatrix ist.
 Das für großes $n$ überbestimmte lineare Gleichungssystem
-\begin{equation}
+\begin{equation} \label{eq:transform}
  \begin{pmatrix} b_1 \\ \vdots \\ b_n \end{pmatrix} = \underbrace{
  \begin{pmatrix} {R^{(1)}_{11}}^2 & 2R^{(1)}_{12}R^{(1)}_{11} & {R^{(1)}_{12}}^2 \\
 				 & \vdots & \\
@@ -50,7 +54,12 @@ Grundlage für einen $\chi^2$-Fit sein.
 Zuerst lassen wir den Elektronenstrahl von dem Punkt direkt vor
 V46MATCH bis zum Schirm 2 auf verschiedene Weise transformieren, indem
 wir an V46MATCH jeweils 25, bzw. 19 verschiedene Stromstärken einstellen und dann
-$\langle x^2 \rangle$, bzw. $\langle y^2 \rangle$ an Schirm 3 messen. Die
+$\langle x^2 \rangle$, bzw. $\langle y^2 \rangle$ an Schirm 3 messen. Dazu
+nehmen wir wieder zunächst ein Bild des Hintergrunds (ohne Strahl), welches
+wir danach von der Kameraaufnahme abziehen. Die Strahlgröße $\langle x^2 \rangle$
+wird dann, nachdem manuell mit der Maus ein enger Bereich um den Strahlfleck
+auf dem Schirm abgegrenzt wird, von dem Bildanalyse-Programm als Varianz der
+Intensitätsverteilung auf dem Kamerasensor berechnet. Die
 Messergebnisse sind in den Tabellen \ref{tab:xemitquad} und \ref{tab:yemitquad}
 dargestellt.
 
@@ -60,16 +69,16 @@ dargestellt.
 \hline
 I\text{ [A]}	&	\langle x^2 \rangle \text{ [mm]}	 \\ [0.2ex]
 \hline\hline
-0,70	&	0,66	\\
-0,75	&	0,616	\\
-0,80	&	0,58	\\
-0,85	&	0,55	\\
-0,90	&	0,5	\\
-0,95	&	0,48	\\
-1,00	&	0,44	\\
-1,05	&	0,4	\\
-1,10	&	0,4	\\
-1,15	&	0,39107	\\
+0,70	&	0,66		\\
+0,75	&	0,616		\\
+0,80	&	0,58		\\
+0,85	&	0,55		\\
+0,90	&	0,5			\\
+0,95	&	0,48		\\
+1,00	&	0,44		\\
+1,05	&	0,4			\\
+1,10	&	0,4			\\
+1,15	&	0,39107		\\
 1,20	&	0,382277	\\
 1,25	&	0,381375	\\
 1,30	&	0,380214	\\
@@ -99,8 +108,25 @@ I\text{ [A]}	&	\langle x^2 \rangle \text{ [mm]}	 \\ [0.2ex]
 \hline
 I\text{ [A]}	&	\langle y^2 \rangle \text{ [mm]}	 \\ [0.2ex]
 \hline\hline
-
-
+-1,90	&	0,710957	\\
+-1,85	&	0,658355	\\
+-1,80	&	0,609792	\\
+-1,75	&	0,573970	\\
+-1,70	&	0,533938	\\
+-1,65	&	0,509606	\\
+-1,60	&	0,490458	\\
+-1,55	&	0,470464	\\
+-1,50	&	0,462698	\\
+-1,45	&	0,464849	\\
+-1,40	&	0,469504	\\
+-1,35	&	0,475496	\\
+-1,30	&	0,497975	\\
+-1,25	&	0,530275	\\
+-1,20	&	0,561653	\\
+-1,15	&	0,593314	\\
+-1,10	&	0,632141	\\
+-1,05	&	0,705271	\\
+-1,00	&	0,733322	\\
 \hline
 \end{tabular}
 \caption{Messung der vertikalen Strahlgröße $\langle y^2 \rangle$ an Schirm 2
@@ -108,7 +134,205 @@ I\text{ [A]}	&	\langle y^2 \rangle \text{ [mm]}	 \\ [0.2ex]
 	\label{tab:yemitquad}
 \end{table}
 
+Mit einem Matlab-Skript wird dann jeweils aus den verschiedenen
+Stromeinstellungen die Matrix $B$ aus Gleichung \eqref{eq:transform} bestimmt und
+daraus der $\chi^2$-Fit für $a_1$, $a_2$, $a_3$ bestimmt. Mittels
+Fehlerfortpflanzung erhalten wir dann nach \eqref{eq:normemit} einen Wert
+und Fehler für $\eps_{x,n}$ und $\eps_{y,n}$.
 
+In horizontale Richtung $x$ haben wir
+\begin{equation}
+	B =
+	\begin{pmatrix}
+	0,0267  &  0,1297  &  0,1572	\\
+    0,0111  &  0,0832  &  0,1554	\\		
+    0,0023  &  0,0375  &  0,1537	\\	
+    0,0001  & -0,0075  &  0,1519	\\	
+    0,0045  & -0,0519  &  0,1501	\\		
+    0,0154  & -0,0955  &  0,1484	\\	
+    0,0327  & -0,1385  &  0,1467	\\
+    0,0563  & -0,1807  &  0,1449	\\
+    0,0862  & -0,2223  &  0,1432	\\
+    0,1223  & -0,2632  &  0,1416	\\
+    0,1645  & -0,3034  &  0,1399	\\	
+    0,2128  & -0,3430  &  0,1382	\\
+    0,2670  & -0,3819  &  0,1366	\\
+    0,3270  & -0,4201  &  0,1350	\\
+    0,3929  & -0,4577  &  0,1333	\\
+    0,4645  & -0,4947  &  0,1317	\\
+    0,5417  & -0,5310  &  0,1301	\\
+    0,6245  & -0,5667  &  0,1286	\\
+    0,7128  & -0,6017  &  0,1270	\\
+    0,8066  & -0,6361  &  0,1254	\\
+    0,9057  & -0,6699  &  0,1239	\\
+    1,0101  & -0,7031  &  0,1224	\\
+    1,1197  & -0,7357  &  0,1208	\\
+    1,2344  & -0,7676  &  0,1193	\\
+    1,3542  & -0,7990  &  0,1178			
+	\end{pmatrix} \nonumber
+\end{equation}
 
+wobei die zweite Spalte in m und die dritte in m$^2$ angegeben sind.
+Der $\chi^2$-Fit ergibt daraus:
+\begin{equation}
+	\begin{pmatrix}
+	a_1	\\
+    a_2	\\
+	a_3				
+	\end{pmatrix}
+	= 10^{-5} \cdot
+	\begin{pmatrix}
+	0,063 \text{ m}^2 \\
+	0,0762 \text{ m} \\
+	0,197			
+	\end{pmatrix} \nonumber
+\end{equation}
+
+Schliesslich erhalten wir damit
+\begin{equation}
+	\eps_{x,n} = (0,136 \pm 0,005)\text{ m}\cdot\text{mrad.} \nonumber
+\end{equation}
+
+Für die vertikale Richtung $y$ haben wir analog
+\begin{equation}
+	B =
+	\begin{pmatrix}
+   	   1,3542   &	-0,7990     &	  0,1178			\\
+       1,2344   &	-0,7676     &	  0,1193			\\		
+       1,1197   &	-0,7357      &	 0,1208				\\
+       1,0101   &	-0,7031      &	 0,1224				\\
+       0,9057   &	-0,6699      &	 0,1239				\\
+       0,8066     &	 -0,6361     &	  0,1254			\\
+       0,7128     &	 -0,6017     &	  0,1270			\\
+       0,6245     &	 -0,5667     &	  0,1286			\\
+       0,5417     &	 -0,5310     &	  0,1301			\\
+       0,4645     &	 -0,4947     &	  0,1317			\\
+       0,3929     &	 -0,4577     &	  0,1333			\\
+       0,3270     &	 -0,4201     &	  0,1350			\\
+       0,2670     &	 -0,3819     &	  0,1366			\\
+       0,2128     &	 -0,3430     &	  0,1382			\\
+       0,1645     &	 -0,3034     &	  0,1399			\\
+       0,1223    &	  -0,2632    &	   0,1416			\\
+       0,0862    &	  -0,2223     &	  0,1432			\\
+       0,0563    &	  -0,1807     &	  0,1449			\\
+       0,0327    &	  -0,1385     &	  0,1467
+	\end{pmatrix} \nonumber
+\end{equation}
+
+mit der zweiten Spalte in m und der dritten in m$^2$,
+
+\begin{equation}
+	\begin{pmatrix}
+	a_1	\\
+    a_2	\\
+	a_3				
+	\end{pmatrix}
+	= 10^{-5} \cdot
+	\begin{pmatrix}
+	0,111  \text{ m}^2 \\
+	0,2063 \text{ m} \\
+	0,5421			
+	\end{pmatrix} \nonumber
+\end{equation}
+
+und
+
+\begin{equation}
+	\eps_{y,n} = (0,222 \pm 0,011)\text{ m}\cdot\text{mrad.} \nonumber
+\end{equation}
 
 \section{Messung durch Variation der Schirme}
+
+Als nächstes wird der Elektronenstrahl von Schirm 2
+auf verschiedene Weise transformiert, indem alle Quadrupol- und Dipolströme
+(die \emph{Optik}) konstant gehalten werden und dafür die Strecken, die der
+Strahl zurücklegt, variiert werden. Wir messen hierzu die Strahlgrößen
+$\langle x^2 \rangle$ und $\langle y^2 \rangle$ an den Schirmen 2, 3, 4 und 5.
+Die Messergebnisse sind in Tabelle \ref{tab:emitschirm} dargestellt.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{| >{$}c<{$} | >{$}c<{$} >{$}c<{$} >{$}c<{$} >{$}c<{$} |}
+\hline
+ & \text{Schirm 2} & \text{Schirm 3} & \text{Schirm 4} & \text{Schirm 5}\\[0.2ex]
+\hline
+\sqrt{\langle x^2\rangle} \text{ [mm]} & 0,9018 & 0,8594 & 1,0907 & 1,2662 \\
+\sqrt{\langle y^2 \rangle} \text{ [mm]} & 1,0049 & 2,4088 & 2,9551 & 1,3854 \\
+\hline
+\end{tabular}
+\caption{Messung der Strahlgrößen $\sqrt{\langle x^2 \rangle}$ und
+		$\sqrt{\langle y^2 \rangle}$ an den Schirmen 2, 3, 4 und 5.}
+		\label{tab:emitschirm}
+\end{table}
+
+Es gibt dann für jeden der vier Schirme eine Transformationsmatrix, die
+den Elektronenstrahl zu diesem Schirm transformiert. (Für Schirm 2 ist dies
+die Identität.) Aus diesen vier Transformationsmatrizen wird durch Matlab
+wieder jeweils die Matrix $B$ im Sinne von \eqref{eq:transform} berechnet:
+\begin{equation}
+	B_x =
+	\begin{pmatrix}
+	1  &       0   &      0	\\
+	0,2188  &  0,4660   & 0,2481	\\	
+	0,0673  & -0,6866   & 1,7499	\\	
+	0,3917  & -2,0083   & 2,5742
+	\end{pmatrix}  \nonumber
+\end{equation}
+
+für die horizontale Richtung $x$ und
+
+\begin{equation}
+	B_y =
+	\begin{pmatrix}
+	1  &       0  &       0		\\
+    2,4056  &  2,3135  &  0,5562		\\
+    1,4058  &  1,9500  &  0,6762		\\
+    0,0511  &  -0,1980 &  0,1916		
+	
+	\end{pmatrix}  \nonumber
+\end{equation}
+
+für die vertikale Richtung $y$. (Die zweiten Spalten sind wieder in m,
+die dritten in m$^2$.)
+
+Der mit Matlab errechnete $\chi^2$-Fit ergibt
+
+\begin{equation}
+	\begin{pmatrix}
+	a_{x,1}	\\
+    a_{x,2}	\\
+	a_{x,3}				
+	\end{pmatrix}
+	= 10^{-6} \cdot
+	\begin{pmatrix}
+	0,8417  \text{ m}^2 \\
+	0,5456 \text{ m} \\
+	0,9037			
+	\end{pmatrix} \nonumber
+\end{equation}
+
+und
+
+\begin{equation}
+	\begin{pmatrix}
+	a_{y,1}	\\
+    a_{y,2}	\\
+	a_{y,3}				
+	\end{pmatrix}
+	= 10^{-5} \cdot
+	\begin{pmatrix}
+	0,035  \text{ m}^2 \\
+	-0,063 \text{ m} \\
+	1,284			
+	\end{pmatrix} \nonumber
+\end{equation}
+
+woraus (mit Fortpflanzung des $\chi^2$-Fit-Fehlers) folgt:
+
+\begin{equation}
+	\eps_{x,n} = (0,119 \pm 0,016)\text{ m}\cdot\text{mrad} \nonumber
+\end{equation}
+und
+\begin{equation}
+	\eps_{y,n} = (0,35 \pm 0,02)\text{ m}\cdot\text{mrad.} \nonumber
+\end{equation}
