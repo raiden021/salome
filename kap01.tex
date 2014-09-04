@@ -9,11 +9,12 @@ eine die Qualität des Strahls charakterisierende Größe die wir im Theorieteil er
 \section{Aufbau}
 \begin{figure}[ht]
   \includegraphics[width=0.8\textwidth]{./salome-aufbau.png}
-  \caption{}
+  \caption{( Matching section wurde abgebaut)}
 \end{figure}
 
-Der Teilchenbeschleuniger vesteht aus einem Kathodenstrahler zur Erzeugung des Strahls, einer Spule 
+Der Teilchenbeschleuniger besteht aus einem Kathodenstrahler zur Erzeugung des Strahls, einer Spule 
 (Solenoidmagnet) dessen äußere Streufelder fokussierend wirken, einigen Dipol- und Quadromagneten.
+
 \begin{figure}[]
   \includegraphics[width=0.40\textwidth]{./dipol.png}\hfill\includegraphics[width=0.40\textwidth]{./quadropol.png}
   \caption{Di-und Quadropolschemata}
@@ -44,19 +45,60 @@ k: Stärke des Quadropolmagneten
 \section {Phasenraum, Emittanz und Twissparameter}
 Man stellt zunächst die Bewegungsgleichungen eines einzelnen Teilchens auf und guckt wie dieses sich unabhängig 
 von den anderen Teilchen im Bezug auf die Sollbahn bewegt. Den Einfluss der Teilchen aufeinander kann hier 
-vernachlässigt werden da der Strom sehr klein ist.
-Hergeleitet findet man die DGL im Wille S. xx , die genaue Form soll uns hier aber nicht interessieren. Es stellt sich wie durch die fokussierende Wirkung der Quadropolmagnet 
-vermutet heraus, dass ein Teilchen eine osillierende Bewegung um die Sollbahn durchfährt.
+vernachlässigt werden da der Strom sehr klein ist und vorrausgesetzt wird, dass sich die Sollbahn nicht gekrümmt ist.
 
-Im Phasenraum ist die Bewegung des Teilchens durch eine Ellipse beschrieben:
+\begin{equation}x''(s)-k(s)x(s)=0
+\end{equation}
+
+\begin{equation}y''(s)+k(s)y(s)=0
+\end{equation}
+
+s parametrisiert die Sollbahn.
+
+Die Herleitung der Differentialgleichung findet man im Wille S. xx.  
+
+Hier sieht man das die Bewegung in x und y Richtung entkoppelt ist und die
+
+Fokussierung/Defokussierung in beiden Ebenen gerade umgekehrt ist.
+
+Die Lösung der Gleichung ist analytisch schwierig, da sich k entlang der Bahn s ändert, jedoch kann man jeden Abschnitt in der Sollbahn wo sich
+k ändert für sich betrachten und so ein Kalkül entwickeln der die Bewegungsgleichung in diskreten Abschnitten mithilfe von Matrizen löst.
+Möchte man zb. für gegebene Anfangswerte x0 und x'0 des Teilchens die Werte x1, x'1 ermitteln nachdem es einen Dipol und Quadropol durchlaufen hat,
+so nimmt man die einzelnen Matrizen für Dipol und Quadropol und führt sie hintereinander aus.
+
+Diesen Kalkül werden wir später in der Berechnung der Emittanz verwenden.
+
+Das Teilchen führt eine oszillierende Bewegung um die Sollbahn durch.Im Phasenraum ist die Bewegung durch eine Ellipse beschrieben:
 
 \begin{equation}
 \epsilon=\gamma(s)x^2(s)+2\alpha(s)x(s)x'(s)+\beta(s)x'^2(s)\end{equation}
 
-s soll hier die parametrisierung der Sollbahn darstellen.x(s) ist die Ablenkung zur Sollbahn, x'(s) Der Winkel zwischen Geschwindigkeit und Sollbahn. 
+x(s) ist die Ablenkung zur Sollbahn, x'(s) Der Winkel zwischen Geschwindigkeit und Sollbahn. 
 
-$\gamma(s),\alpha(s),\beta(s)$ sind die sogenannten ``Twissparameter'', sie bestimmten die Form und Position der Elllipse, und sind
-auch abhängig von der Position auf der Sollbahn.
-$\epsilon$ ist die Emittanz des Teilchens. Sie wurde als Integrationskonstante in den Bewegungsgleichungen eingeführt und ist daher unabhängig von s.
-Sie ist bis auf den Faktor $\pi$ die Fläche der Ellipse im Phasenraum.
-  
+$\gamma(s),\alpha(s),\beta(s)$ sind die sogenannten ``Twissparameter'', sie bestimmen die Form und Position der Ellipse, und sind
+auch abhängig von der Position auf der Sollbahn. Sie werden allein durch den Aufbau bzw. der Fokussierung entlang der Sollbahn 
+bestimmt und unabhängig von den Anfangsbedingungen.
+
+Die Anfangsbedingungen x0 und x'0 gehen in die Integrationskonstanten $\epsilon$ und der Anfangsphase $\Phi$ der Schwingung ein.
+
+$\epsilon$ ist die sogenannte Emittanz des Teilchens und wurde als Integrationskonstante eingeführt. Sie ist daher eine 
+Erhaltungsgröße und nach der Gleichung im Phasenraum auch die Fläche der Ellipse bis auf einen Faktor $\pi$.
+Sie charakterisiert somit die Qualität und die Fokussierbarkeit des Strahls.
+
+Im nächsten Schritt wollen wir charakteristische Größen für den Teilchenstrahl, bestehend aus mehreren Teilchen die den selben Differentialgleichungen
+unterliegen, festlegen. Da die Twissparameter unabhängig von den Anfangsbedingungen die Ellipse entlang s verformen, liegen Teilchen mit gleicher Emittanz
+an verschiedenen Punkten derselben Ellipse oder sie haben verschiedene Emittanzen und bewegen sich innerhalb einer kleineren bzw. größeren Ellipse.
+
+Wir definieren die Emittanz des gesamten Teilchensstrahles als die Fläche der Ellipse die von der Standardabweichungen von x und x' aufgespannt wird.
+
+Da sich die so definierte Emittanz mit Beschleunigung verkleinert führen wir die normierte Emittanz ein :
+
+\begin{equation}
+\epsilon_n=\gamma \beta \sqrt{<x^2>*<x'^2>-(<x><x'>)^2}\end{equation}
+
+mit dem Lorentzfaktor $\gamma$ und $\beta=v/c$ 
+
+
+
+
+
