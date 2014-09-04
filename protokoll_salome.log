@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  4 SEP 2014 18:21
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  4 SEP 2014 18:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -607,7 +607,7 @@ live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
 e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on protokoll_salome.pdf (21 pages, 358264 bytes).
+Output written on protokoll_salome.pdf (21 pages, 358460 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
