@@ -1,17 +1,16 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
 \contentsline {section}{\numberline {1.1}Aufbau}{1}
-\contentsline {chapter}{\numberline {2}Energiemessung}{3}
-<<<<<<< HEAD
-\contentsline {chapter}{\numberline {3}Emittanzmessung}{6}
-\contentsline {section}{\numberline {3.1}Messung durch Variation des Quadrupolstroms}{6}
-\contentsline {section}{\numberline {3.2}Messung durch Variation der Schirme}{6}
-\contentsline {chapter}{\numberline {4}}{7}
-\contentsline {section}{\numberline {4.1}}{7}
-\contentsline {chapter}{\numberline {5}}{8}
-\contentsline {section}{\numberline {5.1}}{8}
-\contentsline {chapter}{\numberline {6}}{9}
-\contentsline {section}{\numberline {6.1}}{9}
-=======
->>>>>>> f82b972453e4d4ed1994af0bc46bd24fea319c6b
-\contentsline {chapter}{\numberline {7}Literaturverzeichnis}{10}
+\contentsline {section}{\numberline {1.2}Theorie}{3}
+\contentsline {section}{\numberline {1.3}Phasenraum, Emittanz und Twissparameter}{3}
+\contentsline {chapter}{\numberline {2}Energiemessung}{4}
+\contentsline {chapter}{\numberline {3}Emittanzmessung}{7}
+\contentsline {section}{\numberline {3.1}Messung durch Variation des Quadrupolstroms}{7}
+\contentsline {section}{\numberline {3.2}Messung durch Variation der Schirme}{7}
+\contentsline {chapter}{\numberline {4}}{9}
+\contentsline {section}{\numberline {4.1}}{9}
+\contentsline {chapter}{\numberline {5}}{10}
+\contentsline {section}{\numberline {5.1}}{10}
+\contentsline {chapter}{\numberline {6}}{11}
+\contentsline {section}{\numberline {6.1}}{11}
+\contentsline {chapter}{\numberline {7}Literaturverzeichnis}{12}

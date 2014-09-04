@@ -48,8 +48,6 @@ INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/extarrows/extarrows.sty
-INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/extarrows/extarrows.sty
 INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2011/texmf-dist/tex/latex/units/units.sty

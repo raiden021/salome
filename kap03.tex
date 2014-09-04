@@ -24,7 +24,8 @@ Für die entlang des Orbits erhaltene Emittanz $\eps$ gilt
 
 Wir werden hierzu die Größen $a_1 := \langle x^2\rangle$, $a_2 := \langle
 xx'\rangle$ und
-$a_3 := \langle x'^2\rangle$ (genauso für $y$) direkt vor dem Quadrupolmagneten
+$a_3 := \langle x'^2\rangle$ (und alles Folgende analog für $y$) direkt vor dem
+Quadrupolmagneten
 V46MATCH bestimmen und daraus dann die transversalen Emittanzen $\eps_x$ und
 $\eps_y$ und ihre normierten Varianten $\eps_{x,n}$ und $\eps_{y,n}$ erhalten.
 
@@ -34,16 +35,80 @@ die Größe $\langle x^2\rangle$ nach der $i$-ten Transformation und
 $R^{(i)}$ die entsprechende Transformationsmatrix ist.
 Das für großes $n$ überbestimmte lineare Gleichungssystem
 \begin{equation}
- \begin{pmatrix} b_1 \\ \vdots \\ b_n \end{pmatrix} = 
+ \begin{pmatrix} b_1 \\ \vdots \\ b_n \end{pmatrix} = \underbrace{
  \begin{pmatrix} {R^{(1)}_{11}}^2 & 2R^{(1)}_{12}R^{(1)}_{11} & {R^{(1)}_{12}}^2 \\
 				 & \vdots & \\
 				 {R^{(n)}_{11}}^2 & 2R^{(n)}_{12}R^{(n)}_{11} & {R^{(n)}_{12}}^2 \\
-	\end{pmatrix}
-	\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}
+ \end{pmatrix} }_{=:B}
+ \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}
 \end{equation}
-an die zu ermitteltenden Unbekannten $a_1$, $a_2$, $a_3$ ist dann Grundlage für
-einen $\chi^2$-Fit.
+an die zu ermitteltenden Unbekannten $a_1$, $a_2$, $a_3$ kann und wird dann
+Grundlage für einen $\chi^2$-Fit sein.
 
 \section{Messung durch Variation des Quadrupolstroms}
+
+Zuerst lassen wir den Elektronenstrahl von dem Punkt direkt vor
+V46MATCH bis zum Schirm 2 auf verschiedene Weise transformieren, indem
+wir an V46MATCH jeweils 25, bzw. 19 verschiedene Stromstärken einstellen und dann
+$\langle x^2 \rangle$, bzw. $\langle y^2 \rangle$ an Schirm 3 messen. Die
+Messergebnisse sind in den Tabellen \ref{tab:xemitquad} und \ref{tab:yemitquad}
+dargestellt.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{| >{$}c<{$} >{$}c<{$} |}
+\hline
+I\text{ [A]}	&	\langle x^2 \rangle \text{ [mm]}	 \\ [0.2ex]
+\hline\hline
+0,70	&	0,66	\\
+0,75	&	0,616	\\
+0,80	&	0,58	\\
+0,85	&	0,55	\\
+0,90	&	0,5	\\
+0,95	&	0,48	\\
+1,00	&	0,44	\\
+1,05	&	0,4	\\
+1,10	&	0,4	\\
+1,15	&	0,39107	\\
+1,20	&	0,382277	\\
+1,25	&	0,381375	\\
+1,30	&	0,380214	\\
+1,35	&	0,396236	\\
+1,40	&	0,403774	\\
+1,45	&	0,429807	\\
+1,50	&	0,450623	\\
+1,55	&	0,466817	\\
+1,60	&	0,500828	\\
+1,65	&	0,525564	\\
+1,70	&	0,548818	\\
+1,75	&	0,572263	\\
+1,80	&	0,627355	\\
+1,85	&	0,659232	\\
+1,90	&	0,673288	\\
+
+\hline
+\end{tabular}
+\caption{Messung der horizontalen Strahlgröße $\langle x^2 \rangle$ an Schirm 2
+			in Abhängigkeit des Quadrupolstroms $I$ bei V46MATCH.}
+	\label{tab:xemitquad}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{| >{$}c<{$} >{$}c<{$} |}
+\hline
+I\text{ [A]}	&	\langle y^2 \rangle \text{ [mm]}	 \\ [0.2ex]
+\hline\hline
+
+
+\hline
+\end{tabular}
+\caption{Messung der vertikalen Strahlgröße $\langle y^2 \rangle$ an Schirm 2
+			in Abhängigkeit des Quadrupolstroms $I$ bei V46MATCH.}
+	\label{tab:yemitquad}
+\end{table}
+
+
+
 
 \section{Messung durch Variation der Schirme}
