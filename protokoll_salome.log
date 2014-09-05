@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.31)  5 SEP 2014 18:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.31)  5 SEP 2014 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,7 +346,8 @@ Package scrkbase Info: You've told me to extend the font selection of the
 \openout2 = `command.aux'.
 
 (./command.tex) (./protokoll_salome.aux (./titlepage.aux) (./kap01.aux)
-(./kap02.aux) (./kap03.aux) (./kap04.aux) (./kap05.aux) (./literatur.aux))
+(./kap02.aux) (./kap03.aux) (./kap04.aux) (./kap05.aux) (./kap06.aux)
+(./literatur.aux))
 \openout1 = `protokoll_salome.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -512,13 +513,7 @@ Package pdftex.def Info: ./quadropol.png used on input line 19.
  [1
 
 
- <./salome-aufbau.png>]
-Overfull \hbox (8.02344pt too wide) in paragraph at lines 33--36
-\OT1/cmr/m/n/12 h[]angt lin-ear von x ab und wirkt in ein-er ebene fokussierend
- in der an-deren de-fokussierend,
- []
-
-[2 <./dipol.png> <./quadropol.png>]
+ <./salome-aufbau.png>] [2 <./dipol.png> <./quadropol.png>]
 Overfull \hbox (18.34279pt too wide) in paragraph at lines 84--87
 []$\OML/cmm/m/it/12 ^^O$ \OT1/cmr/m/n/12 ist die so-ge-nan-nte Emit-tanz des Te
 ilchens und wurde als In-te-gra-tionskon-stante eingef[]uhrt.
@@ -592,46 +587,166 @@ opol Ein-stel-lung durchzuf[]uhren
  []
 
 ) [17]
-\openout2 = `literatur.aux'.
+\openout2 = `kap06.aux'.
 
- (./literatur.tex
+ (./kap06.tex
 Kapitel 6.
 
-Overfull \hbox (47.53886pt too wide) in paragraph at lines 4--5
-[]\OT1/cmr/m/n/12 http://www.physik.uni-hamburg.de/ex/html/fprakt/e/Beschleunig
-er/SALOME[]-VersMappe[]-
+Overfull \hbox (2.53183pt too wide) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/12 Im er-sten Schirm haben wir den Strahl di-rekt nach dem ver-l
+assen der Kath-ode gemessen. 
+ []
+
+
+Overfull \hbox (5.77841pt too wide) in paragraph at lines 13--15
+\OT1/cmr/m/n/12 Schirm se-hen kon-nten. Der Strahl war jedes-mal gut fokussiert
+, so-dass wir den Quadropol-
+ []
+
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21     }
+          
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (4.94456pt too wide) in paragraph at lines 21--21
+[]\OT1/cmr/m/n/10 (a) 
+ []
+
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25     }
+          
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.50012pt too wide) in paragraph at lines 25--25
+[]\OT1/cmr/m/n/10 (b) 
+ []
+
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29     }
+          \\
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (4.38899pt too wide) in paragraph at lines 29--29
+[]\OT1/cmr/m/n/10 (c) 
+ []
+
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32     }
+          
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.50012pt too wide) in paragraph at lines 32--32
+[]\OT1/cmr/m/n/10 (d) 
+ []
+
+
+! LaTeX Error: File `' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36    }
+         
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (4.38899pt too wide) in paragraph at lines 36--36
+[]\OT1/cmr/m/n/10 (e) 
  []
 
 ) [18
 
 
 
+]
+\openout2 = `literatur.aux'.
+
+ (./literatur.tex
+Kapitel 7.
+
+Overfull \hbox (47.53886pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/12 http://www.physik.uni-hamburg.de/ex/html/fprakt/e/Beschleunig
+er/SALOME[]-VersMappe[]-
+ []
+
+) [19
+
+
+
 ] (./protokoll_salome.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
-(./kap03.aux) (./kap04.aux) (./kap05.aux) (./literatur.aux)) ) 
+(./kap03.aux) (./kap04.aux) (./kap05.aux) (./kap06.aux) (./literatur.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5404 strings out of 495059
- 76266 string characters out of 3182030
- 181717 words of memory out of 3000000
- 8419 multiletter control sequences out of 15000+200000
+ 5430 strings out of 495059
+ 76480 string characters out of 3182030
+ 182059 words of memory out of 3000000
+ 8426 multiletter control sequences out of 15000+200000
  14658 words of font info for 56 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,17n,47p,349b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on protokoll_salome.pdf (22 pages, 382896 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on protokoll_salome.pdf (23 pages, 394269 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
