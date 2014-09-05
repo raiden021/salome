@@ -1,2 +1,61 @@
-\chapter{}
-\section{}
+\chapter{Fehlerdiskussion}
+\section{Energiemessung}
+
+In unserer ersten Messung haben wir die kin.Energie der Elektronen mithilfe 
+des linearen Zusammenhanges zwischen Ablenkung des Strahls im homogenen Magnetfeld
+und der Magnetfeldstärke. Mithilfe der linearen Regression und Fehlerfortpflanzung.
+Jede Messung hatte eine Messungenauigkeit durch den Apparat den wir zur Aufnahme der 
+Strahlposition genommen haben von 0.25 mm. Da diese Ungenauigkeit bei jedem Messpunkt 
+gleich war haben wir keine Gewichtung der einzelnen Messpunkte vorgenommen.
+
+Das Messergebnis war : $E_\text{kin}$=(7.2 $\pm$ 0.2) keV
+
+Ein systematischer Fehler bei der Messung könnte die statistische Verteilung der 
+kin.Energie der Teilchen durch die thermische Erzeugung in der Kathode sein.
+Teilchen mit verschiedenen Energien würden auch anders im Magnetfeld abgelenkt,
+jedoch würde das in erster Linie zu einer Verbreiterung des Strahles in 
+y Richtung führen, was wir nicht beobachten konnten.
+Nichts desto trotz könnte man zur Verbesserung der Messung eine genauer
+Elektronenstrahlquelle verwenden.
+
+
+\section{Erste und zweite Emittanzmessung}
+
+Die Emittanz hatten wir auf zwei verschiedene Arten gemessen.
+Einmal durch Messung der Strahlgröße bei Variation des Quadropolstromes an einem Schirm 
+und einmal die gleiche Messung aber an 4 verschiedenen Schirmen.
+Wir haben eine Parabel durch einen $\chi ^2$ Fit angenähert, und
+mit den 3 Parametern der Parabel die Emittanz mit Fehlerfortpflanzung
+errechnet.
+
+Dabei fällt natürlich auf, dass eine Messung mit 3 Freiheitsgraden und nur 4 Messpunkten wie es
+bei Messung 2 der Fall ist eine statistische Fehleranalyse mit einem $\chi ^2$ Fit wenig Aussagekraft hat.
+
+Messung 1: \begin{equation}\eps_{x,n} = (0,136 \pm 0,005)\text{ mm}\cdot\text{mrad.} \nonumber \end{equation}
+            \begin{equation}\eps_{y,n} = (0,222 \pm 0,011)\text{ mm}\cdot\text{mrad.} \nonumber\end{equation}
+
+Messung 2: \begin{equation}\eps_{x,n} = (0,119 \pm 0,016)\text{ mm}\cdot\text{mrad} \nonumber \end{equation}
+            \begin{equation}\eps_{y,n} = (0,35 \pm 0,02)\text{ mm}\cdot\text{mrad.} \nonumber\end{equation}           
+
+In der Matrizenrechnungen gehen wir davon aus das die Dipole äußere Störfelder kompensiert haben, sodass wir weder das eine noch das andere berücksichtigen müssen.
+In der Realität ist dies natürlich nicht der Fall, sodass besonders Abweichungen durch das Erdmagnetfeld in unseren Matrizen nicht berücksichtigt werden konnten. 
+In unsere zweiten Messung zur Emittanz haben wir an verschiedenen Schirmen gemessen, sodass sich die Fehler aufsummiert haben und in der Fehlerfortpflanzung zu großen Fehler führten.
+
+Geht man davon aus, dass das Erdmagnetfeld eine große Komponente vertikal zur Sollbahn hat, erwartet man ein großes Störfeld in horizontaler x-Richtung, was unsere große Standardabweichung bei der Messung erklären könnte.
+Eine Idee zur Eindämmung dieses Problemes wäre die Messung mit verschiedenen Quadropol Einstellung durchzuführen und gucken bei welchem die Standardabweichung der  
+Emittanz sinkt. Die Matrix ist Teil der Fehlerrechnung und kann, wenn sie passend gewählt wird, zu einer Fehlerfortpflanzung mit weniger großen Fehlerwerten führen.
+
+\section{Beam-based Alignment}
+
+In dem ``Beam-based Alignment'' haben wir an einem Schirm Strahlposition bei variierenden Dipolablenkung gemessen. 
+
+Für 2 verschiedene Quadropolströme haben wir die Messwerte aufgetragen und geguckt wo sich die Geraden schneiden.
+
+x-Dipol I=-3.055A
+y-Dipol I= 2.211A
+
+Um die Werte zu testen haben wir die Dipole auf diese Werte eingestellt und den Quadropol von -2A bis 2A laufen lassen 
+und geguckt ob sich die Strahlmitte verschiebt.
+
+Die Verschiebung fand im Rahmen der Messungenauigkeit statt, sodass wir davon ausgehen können, dass wir sehr gute Werte erreicht haben.
+
