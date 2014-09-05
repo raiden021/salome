@@ -5,4 +5,77 @@
 Wenn der Elektronenstrahl nicht mittig durch einen Quadrupolmagneten führt,
 dann wirkt dieser nicht nur (de-)fokussierend, sondern auch den ganzen Strahl
 ablenkend. Daher liegt der Wunsch nahe, dass der Elektronenstrahl von den
-Dipolmagneen so gelenkt wird, dass er mittig durch Quadrupole geführt wird.
+Dipolmagneten so gelenkt wird, dass er mittig durch die Quadrupole läuft.
+Wir werden im Folgenden solche Stromwerte für den horizontalen Dipol Q1MATCH und
+den vertikalen Dipol H15MATCH finden, dass der Strahl mittig durch den
+Quadrupolmagneten V46MATCH führt.
+
+Dies geschieht, indem wir jeweils für zwei verschiedene Quadrupolströme die
+(lineare) Abhängigkeit des Versatzes des Strahls auf Schirm 3 von dem
+Dipolstrom messen. Der Schnittpunkt der Geraden, die diese linearen Abhängigkeiten
+beschreiben, entspricht dann dem Dipolstrom, bei dem der Versatz des
+Elektronenstrahls bei zwei verschiedenen Quadrupolströmen auf Schirm 3 gleich ist,
+der Quadrupol also zu keiner Ablenkung führt. D.h. bei dem gefundenen Dipolstrom
+läuft der Strahl mittig durch den Quadrupolmagneten.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{| >{$}c<{$} | >{$}c<{$} >{$}c<{$} |}
+\hline
+& I_\text{V46MATCH}=2{ A} & I_\text{V46MATCH}=1{ A}		 \\ [0.2ex]
+\hline
+\hline
+I_\text{Q1MATCH}{ [A]}	&	\langle x \rangle \text{ [mm]}
+							&	\langle x \rangle \text{ [mm]}	 \\ [0.2ex]
+\hline\hline
+-3,2	&	4,211931	&	4,635957	\\
+-3,1	&	3,561591	&	3,668923	\\
+-3,0	&	2,796788	&	2,647021	\\
+-2,9	&	2,083065	&	1,60043	\\
+-2,8	&	1,353469	&	0,577545	\\
+-2,7	&	0,658561	&	-0,444051	\\
+-2,6	&	-0,019461	&	-1,53573	\\
+-2,5	&	-0,836498	&	-2,562317	\\
+-2,4	&	-1,574353	&	-3,671382	\\
+-2,3	&	-2,372214	&	-4,725614	\\
+-2,2	&	-3,133507	&	-5,859231	\\
+-2,1	&	-3,916701	&	-6,973545	\\
+-2,0	&	-4,636089	&	-8,073133	\\
+\hline
+\end{tabular}
+\caption{Messung des $x$-Versatzes des Strahls auf Schirm 3 in Abhängigkeit
+ 			des Stroms $I_\text{Q1MATCH}$ des horizontalen Dipols bei zwei
+			verschiedenen Quadrupolströmen $I_\text{V46MATCH}$.}
+ 	\label{tab:xbeamalign}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{| >{$}c<{$} | >{$}c<{$} >{$}c<{$} |}
+\hline
+& I_\text{V46MATCH}=0{ A} & I_\text{V46MATCH}=1{ A}		 \\ [0.2ex]
+\hline
+\hline
+I_\text{H15MATCH}{ [A]}	&	\langle y \rangle \text{ [mm]}
+							&	\langle y \rangle \text{ [mm]}	 \\ [0.2ex]
+\hline\hline
+1,4	&	-11,12211	&	-5,888465	\\
+1,5	&	-9,723441	&	-5,182737	\\
+1,6	&	-7,899436	&	-4,522313	\\
+1,7	&	-6,663419	&	-3,781678	\\
+1,8	&	-5,849714	&	-3,102607	\\
+1,9	&	-4,314929	&	-2,454651	\\
+2,0	&	-3,065036	&	-1,702393	\\
+2,1	&	-1,413789	&	-1,053516	\\
+2,2	&	-0,588087	&	-0,342917	\\
+2,3	&	0,985734	&	0,509527	\\
+2,4	&	1,463655	&	1,18625		\\
+\hline
+\end{tabular}
+\caption{Messung des $y$-Versatzes des Strahls auf Schirm 3 in Abhängigkeit
+ 			des Stroms $I_\text{H15MATCH}$ des vertikalen Dipols bei zwei
+			verschiedenen Quadrupolströmen $I_\text{V46MATCH}$.}
+ 	\label{tab:ybeamalign}
+\end{table}
+ 
+ 

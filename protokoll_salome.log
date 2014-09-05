@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  5 SEP 2014 15:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  5 SEP 2014 16:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -558,12 +558,12 @@ Kapitel 4.
 
 
 
-]
+] [15]
 \openout2 = `kap05.aux'.
 
  (./kap05.tex
 Kapitel 5.
-) [15
+) [16
 
 
 
@@ -572,7 +572,7 @@ Kapitel 5.
 
  (./kap06.tex
 Kapitel 6.
-) [16
+) [17
 
 
 
@@ -581,20 +581,20 @@ Kapitel 6.
 
  (./literatur.tex
 Kapitel 7.
-) [17
+) [18
 
 
 
 ] (./protokoll_salome.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
 (./kap03.aux) (./kap04.aux) (./kap05.aux) (./kap06.aux) (./literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 5344 strings out of 493633
- 75821 string characters out of 3143378
- 179792 words of memory out of 3000000
- 8469 multiletter control sequences out of 15000+200000
+ 5346 strings out of 493633
+ 75853 string characters out of 3143378
+ 179814 words of memory out of 3000000
+ 8471 multiletter control sequences out of 15000+200000
  14658 words of font info for 56 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 47i,17n,47p,325b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,17n,47p,349b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
 </u
 sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
@@ -608,10 +608,10 @@ xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
 ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on protokoll_salome.pdf (21 pages, 371428 bytes).
+Output written on protokoll_salome.pdf (22 pages, 376520 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
