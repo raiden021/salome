@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  4 SEP 2014 18:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  5 SEP 2014 15:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -494,7 +494,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
  (./kap01.tex
 Kapitel 1.
-<./salome-aufbau.png, id=17, 655.44875pt x 273.02pt>
+<./salome-aufbau.png, id=18, 655.44875pt x 273.02pt>
 File: ./salome-aufbau.png Graphic file (type png)
  <use ./salome-aufbau.png>
 Package pdftex.def Info: ./salome-aufbau.png used on input line 11.
@@ -504,13 +504,13 @@ Package pdftex.def Info: ./salome-aufbau.png used on input line 11.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 18.
 
-<./dipol.png, id=19, 300.12125pt x 234.8775pt>
+<./dipol.png, id=20, 300.12125pt x 234.8775pt>
 File: ./dipol.png Graphic file (type png)
  <use ./dipol.png>
 Package pdftex.def Info: ./dipol.png used on input line 19.
 (pdftex.def)             Requested size: 176.40439pt x 138.06042pt.
 
-<./quadropol.png, id=20, 396.48125pt x 393.47pt>
+<./quadropol.png, id=21, 396.48125pt x 393.47pt>
 File: ./quadropol.png Graphic file (type png)
  <use ./quadropol.png>
 Package pdftex.def Info: ./quadropol.png used on input line 19.
@@ -523,7 +523,7 @@ Package pdftex.def Info: ./quadropol.png used on input line 19.
 
  (./kap02.tex
 Kapitel 2.
-<./energiemessung.pdf, id=43, 361.35pt x 252.945pt>
+<./energiemessung.pdf, id=44, 361.35pt x 252.945pt>
 File: ./energiemessung.pdf Graphic file (type pdf)
  <use ./energiemessung.pdf>
 Package pdftex.def Info: ./energiemessung.pdf used on input line 97.
@@ -588,29 +588,30 @@ Kapitel 7.
 ] (./protokoll_salome.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
 (./kap03.aux) (./kap04.aux) (./kap05.aux) (./kap06.aux) (./literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 5342 strings out of 493633
- 75794 string characters out of 3143378
+ 5344 strings out of 493633
+ 75821 string characters out of 3143378
  179792 words of memory out of 3000000
- 8468 multiletter control sequences out of 15000+200000
- 14299 words of font info for 55 fonts, out of 3000000 for 9000
+ 8469 multiletter control sequences out of 15000+200000
+ 14658 words of font info for 56 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  47i,17n,47p,325b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
 </u
 sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
-cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on protokoll_salome.pdf (21 pages, 358460 bytes).
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on protokoll_salome.pdf (21 pages, 371428 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

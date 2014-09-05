@@ -182,6 +182,7 @@ INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 OUTPUT protokoll_salome.toc
 OUTPUT kap01.aux
 INPUT kap01.tex
@@ -204,10 +205,10 @@ INPUT ./energiemessung.pdf
 OUTPUT kap03.aux
 INPUT kap03.tex
 INPUT kap03.tex
-INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 OUTPUT kap04.aux
 INPUT kap04.tex
 INPUT kap04.tex
+INPUT /usr/local/texlive/2011/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 OUTPUT kap05.aux
 INPUT kap05.tex
 INPUT kap05.tex
@@ -235,6 +236,7 @@ INPUT kap06.aux
 INPUT literatur.aux
 INPUT literatur.aux
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
