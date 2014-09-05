@@ -18,6 +18,32 @@ Elektronenstrahls bei zwei verschiedenen Quadrupolströmen auf Schirm 3 gleich is
 der Quadrupol also zu keiner Ablenkung führt. D.h. bei dem gefundenen Dipolstrom
 läuft der Strahl mittig durch den Quadrupolmagneten.
 
+Die Messung verlief analog zu vorherigen Messungen der Strahlpositionen auf
+einem Schirm mithilfe des Bildanalyse-Programms. Die Messergebnisse sind
+in den Tabellen \ref{tab:xbeamalign} und \ref{tab:ybeamalign} sowie 
+graphisch in den Abbildungen \ref{fig:xbeamalign} und
+\ref{fig:ybeamalign} dargestellt. Dort sind auch die jeweiligen
+berechneten Regressionsgeraden eingezeichnet.
+
+Für die horizontale Richtung $x$ erhalten wir als Schnittpunkt der beiden
+(2A)- und (1A)-Regressionsgeraden (siehe Bildunterschrift zu Abbildung
+\ref{fig:xbeamalign}) einen Stromwert von $I_\text{Q1MATCH} = -3,055 \text{ A}$.
+
+Diesen stellen wir am Dipol Q1MATCH ein und variieren den Quadrupolstrom,
+um zu verifizieren, dass wir einen Dipolstrom $I_\text{Q1MATCH}$ gefunden haben,
+bei dem der Quadrupol keinen Einfluss auf die $x$-Ablenkung des Strahls überhalb
+der Messungenaugkeit hat. Man sieht in Tabelle \ref{tab:xbeamaligncheck},
+dass dies der Fall ist.
+
+Für die vertikale Richtung $y$ erhalten wir als Schnittpunkt der beiden
+(0A)- und (1A)-Regressionsgeraden (siehe Bildunterschrift zu Abbildung
+\ref{fig:ybeamalign}) einen Stromwert von $I_\text{H15MATCH} = 2,211 \text{ A}$.
+
+Auch dieser ist, wovon wir uns vergewissert haben, derart, dass der
+Elektronenstrahl nun bei Variation des Quadrupolstromes einen im
+Rahmen der Messungenauigkeit von 0,25 mm konstanten $y$-Versatz auf
+Schirm 3 hat.
+
 \begin{table}[ht]
 \centering
 \begin{tabular}{| >{$}c<{$} | >{$}c<{$} >{$}c<{$} |}
@@ -31,7 +57,7 @@ I_\text{Q1MATCH}{ [A]}	&	\langle x \rangle \text{ [mm]}
 -3,2	&	4,211931	&	4,635957	\\
 -3,1	&	3,561591	&	3,668923	\\
 -3,0	&	2,796788	&	2,647021	\\
--2,9	&	2,083065	&	1,60043	\\
+-2,9	&	2,083065	&	1,60043		\\
 -2,8	&	1,353469	&	0,577545	\\
 -2,7	&	0,658561	&	-0,444051	\\
 -2,6	&	-0,019461	&	-1,53573	\\
@@ -77,5 +103,52 @@ I_\text{H15MATCH}{ [A]}	&	\langle y \rangle \text{ [mm]}
 			verschiedenen Quadrupolströmen $I_\text{V46MATCH}$.}
  	\label{tab:ybeamalign}
 \end{table}
- 
- 
+
+\begin{figure}[ht]
+    \includegraphics[width=1\textwidth]{./xbeamalignment.pdf}
+	\caption{Messung des $x$-Versatzes des Strahls auf Schirm 3 in Abhängigkeit
+ 			des Stroms $I_\text{Q1MATCH}$ des horizontalen Dipols bei zwei
+			verschiedenen Quadrupolströmen $I_\text{V46MATCH}$
+			(vgl. Tabelle \ref{tab:xbeamalign}).
+			(2A)-Regressionsgerade gegeben durch
+			$\frac{\langle x\rangle}{m}
+				= -0,00741\cdot \frac{I}{\text{A}} - 0,01941$,
+			(1A)-Regressionsgerade gegeben durch
+			$\frac{\langle x\rangle}{m} 
+				= -0,01061\cdot \frac{I}{\text{A}} - 0,02918$.}
+			\label{fig:xbeamalign}
+\end{figure}
+
+\begin{figure}[ht]
+    \includegraphics[width=1\textwidth]{./ybeamalignment.pdf}
+	\caption{Messung des $y$-Versatzes des Strahls auf Schirm 3 in Abhängigkeit
+ 			des Stroms $I_\text{H15MATCH}$ des vertikalen Dipols bei zwei
+			verschiedenen Quadrupolströmen $I_\text{V46MATCH}$
+			(vgl. Tabelle \ref{tab:ybeamalign}).
+			(0A)-Regressionsgerade gegeben durch
+			$\frac{\langle y\rangle}{m}
+				= 0,0128 \cdot \frac{I}{\text{A}} - 0,0287$,
+			(1A)-Regressionsgerade gegeben durch
+			$\frac{\langle y\rangle}{m}
+				 = 0,00704 \cdot \frac{I}{\text{A}} - 0,01579$.}
+			\label{fig:ybeamalign}
+\end{figure}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{| >{$}c<{$} >{$}c<{$} |}
+\hline
+I_\text{V46MATCH}{ [A]}	&	\langle x \rangle \text{ [mm]}	 \\ [0.2ex]
+\hline\hline
+1,0	&	3,232253	\\
+0,8	&	3,183226	\\
+0,6	&	3,175869	\\
+0,4	&	3,127449	\\
+0,2	&	3,165518	\\
+0,0	&	3,147471	\\
+\hline
+\end{tabular}
+\caption{$x$-Versatz auf Schirm 3 für verschiedene Quadrupolströme bei
+			$I_\text{Q1MATCH} = -3,055 \text{ A}$.}
+	\label{tab:xbeamaligncheck}
+\end{table}
