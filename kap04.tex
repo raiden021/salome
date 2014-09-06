@@ -44,7 +44,7 @@ Elektronenstrahl nun bei Variation des Quadrupolstromes einen im
 Rahmen der Messungenauigkeit von 0,25 mm konstanten $y$-Versatz auf
 Schirm 3 hat.
 
-\begin{table}[ht]
+\begin{table}[h]
 \centering
 \begin{tabular}{| >{$}c<{$} | >{$}c<{$} >{$}c<{$} |}
 \hline
@@ -75,7 +75,7 @@ I_\text{Q1MATCH}{ [A]}	&	\langle x \rangle \text{ [mm]}
  	\label{tab:xbeamalign}
 \end{table}
 
-\begin{table}[ht]
+\begin{table}[h]
 \centering
 \begin{tabular}{| >{$}c<{$} | >{$}c<{$} >{$}c<{$} |}
 \hline
@@ -104,7 +104,7 @@ I_\text{H15MATCH}{ [A]}	&	\langle y \rangle \text{ [mm]}
  	\label{tab:ybeamalign}
 \end{table}
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \includegraphics[width=1\textwidth]{./xbeamalignment.pdf}
 	\caption{Messung des $x$-Versatzes des Strahls auf Schirm 3 in Abhängigkeit
  			des Stroms $I_\text{Q1MATCH}$ des horizontalen Dipols bei zwei
@@ -119,7 +119,7 @@ I_\text{H15MATCH}{ [A]}	&	\langle y \rangle \text{ [mm]}
 			\label{fig:xbeamalign}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[!h]
     \includegraphics[width=1\textwidth]{./ybeamalignment.pdf}
 	\caption{Messung des $y$-Versatzes des Strahls auf Schirm 3 in Abhängigkeit
  			des Stroms $I_\text{H15MATCH}$ des vertikalen Dipols bei zwei
@@ -134,7 +134,7 @@ I_\text{H15MATCH}{ [A]}	&	\langle y \rangle \text{ [mm]}
 			\label{fig:ybeamalign}
 \end{figure}
 
-\begin{table}[ht]
+\begin{table}[!h]
 \centering
 \begin{tabular}{| >{$}c<{$} >{$}c<{$} |}
 \hline
@@ -152,3 +152,48 @@ I_\text{V46MATCH}{ [A]}	&	\langle x \rangle \text{ [mm]}	 \\ [0.2ex]
 			$I_\text{Q1MATCH} = -3,055 \text{ A}$.}
 	\label{tab:xbeamaligncheck}
 \end{table}
+
+
+
+\section{Zentrierung des Strahltransports}
+
+Vor den eigentlichen Experimenten muss man die Optik einstellen, sodass der Strahl am Ende des Beschleunigers ohne große Teilchenverluste mittig ankommt.
+Wir haben bei gegebenen Quadropolstromwerten, die den Strahl fokussieren, die Dipolströme so angepasst, dass der Strahl jeweils mittig auf die fünf Schirme gelangt.
+
+Vor jedem Schirm ist ein Dipolpaar justiert, sodass wir den Strahl in $x$- und $y$-Richtung bewegen können. 
+
+Auf Schirm 1 haben wir den Strahl direkt nach dem Verlassen der Kathode gemessen. 
+
+Wie erwartet war der Strahl schon durch die Kathode gut fokussiert. Um zu verfizieren, dass wir wirklich den Strahl auf dem Schirm sehen und keine Reflexionen, haben wir mit
+dem Magnetfeld eines Handys den Strahl abgelenkt und tatsächlich konnte man gut sehen wie stark so ein kleines Störfeld den Strahl umlenkt.
+
+Als nächstes haben wir an jedem Schirm den horizontalen und vertikalen Dipolmagneten in (1A)-Schritten von -3A bis 3A durchgefahren bis wir den Strahl auf dem nächsten Schirm
+sehen konnten. Der Strahl war jedesmal gut fokussiert, sodass wir den Quadropolstrom nicht anpassen mussten.
+
+Die Aufnahmen der fünf Schirme mit den dazugehörigen Dipolstromwerten sind in Abbildung \ref{abb:portraits} zu sehen.
+
+\begin{figure}[h]
+  \subfigure[Schirm 1]{
+    \includegraphics[width=0.3\textwidth]{./strahlfuehrung-station1.pdf}
+    }
+  \hfill
+  \subfigure[Schirm 2]{
+    \includegraphics[width=0.3\textwidth]{./strahlfuehrung-station2.pdf}
+    }
+  \hfill
+  \subfigure[Schirm 3]{
+    \includegraphics[width=0.3\textwidth]{./strahlfuehrung-station3.pdf}
+    }\\
+  \subfigure[Schirm 4]{
+    \includegraphics[width=0.3\textwidth]{./strahlfuehrung-station4.pdf}
+    }
+  \hfill
+  \subfigure[Schirm 5]{
+    \includegraphics[width=0.3\textwidth]{./strahlfuehrung-station5.pdf}
+   }
+   \subfigure[Schirm 6]{
+     \includegraphics[width=0.3\textwidth]{./strahlfuehrung-station6.pdf}
+    }
+  \caption{Aufnahmen des Strahles auf den Schirmen entlang des Strahlrohrs}
+  \label{abb:portraits}
+\end{figure}
