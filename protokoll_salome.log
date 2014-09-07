@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  6 SEP 2014 16:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  7 SEP 2014 15:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -351,8 +351,7 @@ Package scrkbase Info: You've told me to extend the font selection of the
 \openout2 = `command.aux'.
 
 (./command.tex) (./protokoll_salome.aux (./titlepage.aux) (./kap01.aux)
-(./kap02.aux) (./kap03.aux) (./kap04.aux) (./kap05.aux) (./kap06.aux)
-(./literatur.aux))
+(./kap02.aux) (./kap03.aux) (./kap04.aux) (./kap05.aux) (./literatur.aux))
 \openout1 = `protokoll_salome.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -546,7 +545,7 @@ Kapitel 3.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-Overfull \vbox (67.36195pt too high) has occurred while \output is active []
+Overfull \vbox (69.50212pt too high) has occurred while \output is active []
 
 
 [10] [11] [12]) [13]
@@ -638,68 +637,53 @@ rahlfuehrung-station6.pdf>]
 
  (./kap05.tex
 Kapitel 5.
-
-Overfull \hbox (20.83583pt too wide) in paragraph at lines 13--20
-[]\OT1/cmr/m/n/12 Ein sys-te-ma-ti-scher Feh-ler bei der Mes-sung k[]onnte die 
-sta-tis-ti-sche Ver-tei-lung der kin.Energie
- []
-
 [20
 
 
 
 ]) [21]
-\openout2 = `kap06.aux'.
-
- (./kap06.tex
-Kapitel 6.
-) [22
-
-
-
-]
 \openout2 = `literatur.aux'.
 
  (./literatur.tex
-Kapitel 7.
+Kapitel 6.
 
 Overfull \hbox (47.53886pt too wide) in paragraph at lines 4--5
 []\OT1/cmr/m/n/12 http://www.physik.uni-hamburg.de/ex/html/fprakt/e/Beschleunig
 er/SALOME[]-VersMappe[]-
  []
 
-) [23
+) [22
 
 
 
 ] (./protokoll_salome.aux (./titlepage.aux) (./kap01.aux) (./kap02.aux)
-(./kap03.aux) (./kap04.aux) (./kap05.aux) (./kap06.aux) (./literatur.aux)) ) 
+(./kap03.aux) (./kap04.aux) (./kap05.aux) (./literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 5393 strings out of 493633
- 77168 string characters out of 3143378
- 180868 words of memory out of 3000000
- 8510 multiletter control sequences out of 15000+200000
+ 5382 strings out of 493633
+ 77046 string characters out of 3143378
+ 180536 words of memory out of 3000000
+ 8506 multiletter control sequences out of 15000+200000
  14658 words of font info for 56 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  47i,17n,47p,674b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
-</u
-sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
-sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-11/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on protokoll_salome.pdf (27 pages, 1646120 bytes).
+</usr/local/texli
+ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texli
+ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2
+011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2011/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2011/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on protokoll_salome.pdf (26 pages, 1644856 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

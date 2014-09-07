@@ -107,8 +107,6 @@ INPUT kap04.aux
 INPUT kap04.aux
 INPUT kap05.aux
 INPUT kap05.aux
-INPUT kap06.aux
-INPUT kap06.aux
 INPUT literatur.aux
 INPUT literatur.aux
 OUTPUT protokoll_salome.aux
@@ -236,9 +234,6 @@ INPUT ./strahlfuehrung-station6.pdf
 OUTPUT kap05.aux
 INPUT kap05.tex
 INPUT kap05.tex
-OUTPUT kap06.aux
-INPUT kap06.tex
-INPUT kap06.tex
 OUTPUT literatur.aux
 INPUT literatur.tex
 INPUT literatur.tex
@@ -255,8 +250,6 @@ INPUT kap04.aux
 INPUT kap04.aux
 INPUT kap05.aux
 INPUT kap05.aux
-INPUT kap06.aux
-INPUT kap06.aux
 INPUT literatur.aux
 INPUT literatur.aux
 INPUT /usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

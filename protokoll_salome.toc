@@ -14,6 +14,4 @@
 \contentsline {section}{\numberline {5.1}Energiemessung}{20}
 \contentsline {section}{\numberline {5.2}Erste und zweite Emittanzmessung}{20}
 \contentsline {section}{\numberline {5.3}Beam-based Alignment}{21}
-\contentsline {chapter}{\numberline {6}}{22}
-\contentsline {section}{\numberline {6.1}}{22}
-\contentsline {chapter}{\numberline {7}Literaturverzeichnis}{23}
+\contentsline {chapter}{\numberline {6}Literaturverzeichnis}{22}
