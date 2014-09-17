@@ -37,15 +37,19 @@ Messung 1: \begin{equation}\eps_{x,n} = (0,136 \pm 0,005)\text{ mm}\cdot\text{mr
 Messung 2: \begin{equation}\eps_{x,n} = (0,119 \pm 0,016)\text{ mm}\cdot\text{mrad} \nonumber \end{equation}
             \begin{equation}\eps_{y,n} = (0,35 \pm 0,02)\text{ mm}\cdot\text{mrad.} \nonumber\end{equation}           
 
-In der Matrizenrechnung gehen wir davon aus, dass die Dipole äußere Störfelder kompensiert haben, sodass wir weder das eine noch das andere berücksichtigen müssen.
-In der Realität ist dies natürlich nicht der Fall, sodass besonders Abweichungen durch das Erdmagnetfeld in unseren Matrizen nicht berücksichtigt werden konnten. 
-In unserer zweiten Messung zur Emittanz haben wir an verschiedenen Schirmen gemessen, sodass sich bei den
-letzten Schirmen die Fehler aller vorherigen Schirme aufsummieren.
+In unseren Rechnungen haben wir äußere Störfelder zb. durch die Messgeräte nicht beachtet, obwohl sie großen Einfluss auf die Bahn haben können. Ein Hinweis darauf sind schon die 
+hohen Stromwerte an den Dipolmagneten, die allein bei der Strahlführung verwendet werden müssen. 
 
-Geht man davon aus, dass das Erdmagnetfeld eine große Komponente vertikal zur Sollbahn hat, erwartet man eine größere Ablenkung in horizontale $x$-Richtung, was unsere große Standardabweichung bei der Schirmmessung gerade in
-$x$-Richtung erklären könnte.
+Die leichte Beeinflussung des Elektronenstrahles durch äußere Störfelder kann man auch sehen wenn man ein Handy an den Kathodenstrahler hält und auf dem nächsten Schirm sieht 
+wie stark sich dann die mittlere Position des Strahles ändert.
+
+Weiter hatten wir angenommen, dass die Bewegung des Strahles in den Komponenten x und y entkoppelt sind. Dies ist eine grobe Näherung, die nicht der Realität entspricht.
+
+Die statistischen Fehler durch die Fehlerfortpflanzung hängen auch von den Matrizen ab, die wir zb. in Gleichung \eqref{emittanz} verwendet haben. Verschiedene Stromwerte 
+für die Quadropole ändern die Matrixeinträge und somit die Größe der Fehler.
+
 Eine Idee zur Eindämmung dieses Problemes wäre die Messung mit verschiedenen Quadropol-Einstellungen durchzuführen und gucken bei welchem die Standardabweichung der  
-Emittanz sinkt. Die Matrix ist Teil der Fehlerrechnung und kann, wenn sie passend gewählt wird, zu einer Fehlerfortpflanzung mit weniger großen Fehlerwerten führen.
+Emittanz sinkt. 
 
 \section{Beam-based Alignment}
 
