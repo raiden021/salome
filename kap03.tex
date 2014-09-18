@@ -49,6 +49,12 @@ Das für großes $n$ überbestimmte lineare Gleichungssystem
 an die zu ermitteltenden Unbekannten $a_1$, $a_2$, $a_3$ kann und wird dann
 Grundlage für einen $\chi^2$-Fit sein.
 
+Die Fehlerfortpflanzung zum Fehler, den wir daraus für die Emittanz $\eps_{x,n}$
+erhalten, geschieht gemäß:
+\begin{equation}
+	1+1=2
+\end{equation}
+
 \section{Messung durch Variation des Quadrupolstroms}
 
 Zuerst lassen wir den Elektronenstrahl von dem Punkt direkt vor
@@ -133,6 +139,18 @@ I\text{ [A]}	&	\sqrt{\langle y^2 \rangle} \text{ [mm]}	 \\ [0.2ex]
 			in Abhängigkeit des Quadrupolstroms $I$ bei V46MATCH.}
 	\label{tab:yemitquad}
 \end{table}
+
+\begin{figure}
+	\subfigure[Horizontale Strahlgröße $\langle x^2\rangle$]{
+	\includegraphics[width=0.5\linewidth]{xemittanzplot.pdf}
+	}
+	\subfigure[Vertikale Strahlgröße $\langle y^2\rangle$]{
+	\includegraphics[width=0.5\textwidth]{yemittanzplot.pdf}
+	}
+	\caption{Strahlgrößen auf dem Schirm
+				in Abhängigkeit des Quadrupolstroms $I$.}
+\end{figure}
+\clearpage
 
 Mit einem Matlab-Skript wird dann jeweils aus den verschiedenen
 Stromeinstellungen die Matrix $B$ aus Gleichung \eqref{eq:transform} bestimmt und

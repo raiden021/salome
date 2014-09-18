@@ -1,0 +1,6 @@
+PWD /Users/vincent/Documents/physikbachelor/1414ss/fprakt/SALOME/git/salome
+INPUT /usr/local/texlive/2011/texmf.cnf
+INPUT /usr/local/texlive/2011/texmf/web2c/texmf.cnf
+INPUT /usr/local/texlive/2011/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT kap03.tex
+OUTPUT kap03.log
