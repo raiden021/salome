@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  18 SEP 2014 11:51
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  18 SEP 2014 16:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -479,72 +479,72 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 
-{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
 (./protokoll_salome.toc)
 \tf@toc=\write3
 \openout3 = `protokoll_salome.toc'.
 
- [4
+ [3
 
 ]
 \openout2 = `kap01.aux'.
 
  (./kap01.tex
 Kapitel 1.
-<./salome-aufbau.png, id=18, 655.44875pt x 273.02pt>
+<./salome-aufbau.png, id=15, 655.44875pt x 273.02pt>
 File: ./salome-aufbau.png Graphic file (type png)
  <use ./salome-aufbau.png>
 Package pdftex.def Info: ./salome-aufbau.png used on input line 11.
 (pdftex.def)             Requested size: 352.81552pt x 146.96202pt.
 
-[1
+[4
 
 
- <./salome-aufbau.png>] <./dipol.png, id=24, 300.12125pt x 234.8775pt>
+ <./salome-aufbau.png>] <./dipol.png, id=21, 300.12125pt x 234.8775pt>
 File: ./dipol.png Graphic file (type png)
 
 <use ./dipol.png>
 Package pdftex.def Info: ./dipol.png used on input line 24.
 (pdftex.def)             Requested size: 176.40439pt x 138.06042pt.
- <./quadropol.png, id=25, 396.48125pt x 393.47pt>
+ <./quadropol.png, id=22, 396.48125pt x 393.47pt>
 File: ./quadropol.png Graphic file (type png)
 
 <use ./quadropol.png>
 Package pdftex.def Info: ./quadropol.png used on input line 24.
 (pdftex.def)             Requested size: 176.40439pt x 175.06657pt.
- [2 <./dipol.png> <./quadropol.png>] [3]) [4]
+ [5 <./dipol.png> <./quadropol.png>] [6]) [7]
 \openout2 = `kap02.aux'.
 
  (./kap02.tex
 Kapitel 2.
-<./energiemessung.pdf, id=44, 361.35pt x 252.945pt>
+<./energiemessung.pdf, id=41, 361.35pt x 252.945pt>
 File: ./energiemessung.pdf Graphic file (type pdf)
  <use ./energiemessung.pdf>
 Package pdftex.def Info: ./energiemessung.pdf used on input line 97.
 (pdftex.def)             Requested size: 441.01773pt x 308.71596pt.
 
-[5
-
-
-
-]) [6] [7 <./energiemessung.pdf>]
-\openout2 = `kap03.aux'.
-
- (./kap03.tex
-Kapitel 3.
 [8
 
 
 
-] <xemittanzplot.pdf, id=63, 361.35pt x 252.945pt>
+]) [9] [10 <./energiemessung.pdf>]
+\openout2 = `kap03.aux'.
+
+ (./kap03.tex
+Kapitel 3.
+[11
+
+
+
+] <xemittanzplot.pdf, id=60, 361.35pt x 252.945pt>
 File: xemittanzplot.pdf Graphic file (type pdf)
  <use xemittanzplot.pdf>
 Package pdftex.def Info: xemittanzplot.pdf used on input line 146.
 (pdftex.def)             Requested size: 220.50887pt x 154.35797pt.
 
-<yemittanzplot.pdf, id=64, 361.35pt x 252.945pt>
+<yemittanzplot.pdf, id=61, 361.35pt x 252.945pt>
 File: yemittanzplot.pdf Graphic file (type pdf)
  <use yemittanzplot.pdf>
 Package pdftex.def Info: yemittanzplot.pdf used on input line 149.
@@ -554,13 +554,13 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 146--151
 [][] [] 
  []
 
-[9] [10 <./xemittanzplot.pdf> <./yemittanzplot.pdf>]
+[12] [13 <./xemittanzplot.pdf> <./yemittanzplot.pdf>]
 Underfull \vbox (badness 1502) has occurred while \output is active []
 
- [11
+ [14
 
 ]
-[12]) [13]
+[15]) [16]
 \openout2 = `kap04.aux'.
 
  (./kap04.tex
@@ -571,7 +571,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./xbeamalignment.pdf, id=92, 361.35pt x 252.945pt>
+<./xbeamalignment.pdf, id=89, 361.35pt x 252.945pt>
 File: ./xbeamalignment.pdf Graphic file (type pdf)
  <use ./xbeamalignment.pdf>
 Package pdftex.def Info: ./xbeamalignment.pdf used on input line 108.
@@ -580,7 +580,7 @@ Package pdftex.def Info: ./xbeamalignment.pdf used on input line 108.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./ybeamalignment.pdf, id=93, 361.35pt x 252.945pt>
+<./ybeamalignment.pdf, id=90, 361.35pt x 252.945pt>
 File: ./ybeamalignment.pdf Graphic file (type pdf)
  <use ./ybeamalignment.pdf>
 Package pdftex.def Info: ./ybeamalignment.pdf used on input line 123.
@@ -592,46 +592,46 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14
+[17
 
 
 
-] <./strahlfuehrung-station1.pdf, id=98, 661.47125pt x 494.84875pt>
+] <./strahlfuehrung-station1.pdf, id=95, 661.47125pt x 494.84875pt>
 File: ./strahlfuehrung-station1.pdf Graphic file (type pdf)
 
 <use ./strahlfuehrung-station1.pdf>
 Package pdftex.def Info: ./strahlfuehrung-station1.pdf used on input line 178.
 (pdftex.def)             Requested size: 132.30666pt x 98.97554pt.
 
-<./strahlfuehrung-station2.pdf, id=99, 661.47125pt x 494.84875pt>
+<./strahlfuehrung-station2.pdf, id=96, 661.47125pt x 494.84875pt>
 File: ./strahlfuehrung-station2.pdf Graphic file (type pdf)
 
 <use ./strahlfuehrung-station2.pdf>
 Package pdftex.def Info: ./strahlfuehrung-station2.pdf used on input line 182.
 (pdftex.def)             Requested size: 132.30666pt x 98.97554pt.
 
-<./strahlfuehrung-station3.pdf, id=100, 661.47125pt x 494.84875pt>
+<./strahlfuehrung-station3.pdf, id=97, 661.47125pt x 494.84875pt>
 File: ./strahlfuehrung-station3.pdf Graphic file (type pdf)
 
 <use ./strahlfuehrung-station3.pdf>
 Package pdftex.def Info: ./strahlfuehrung-station3.pdf used on input line 186.
 (pdftex.def)             Requested size: 132.30666pt x 98.97554pt.
 
-<./strahlfuehrung-station4.pdf, id=101, 661.47125pt x 494.84875pt>
+<./strahlfuehrung-station4.pdf, id=98, 661.47125pt x 494.84875pt>
 File: ./strahlfuehrung-station4.pdf Graphic file (type pdf)
 
 <use ./strahlfuehrung-station4.pdf>
 Package pdftex.def Info: ./strahlfuehrung-station4.pdf used on input line 189.
 (pdftex.def)             Requested size: 132.30666pt x 98.97554pt.
 
-<./strahlfuehrung-station5.pdf, id=102, 661.47125pt x 494.84875pt>
+<./strahlfuehrung-station5.pdf, id=99, 661.47125pt x 494.84875pt>
 File: ./strahlfuehrung-station5.pdf Graphic file (type pdf)
 
 <use ./strahlfuehrung-station5.pdf>
 Package pdftex.def Info: ./strahlfuehrung-station5.pdf used on input line 193.
 (pdftex.def)             Requested size: 132.30666pt x 98.97554pt.
 
-<./strahlfuehrung-station6.pdf, id=103, 661.47125pt x 494.84875pt>
+<./strahlfuehrung-station6.pdf, id=100, 661.47125pt x 494.84875pt>
 File: ./strahlfuehrung-station6.pdf Graphic file (type pdf)
 
 <use ./strahlfuehrung-station6.pdf>
@@ -641,7 +641,7 @@ Package pdftex.def Info: ./strahlfuehrung-station6.pdf used on input line 196.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [15] [16] [17 <./xbeamalignment.pdf>] [18 <./ybeamalignment.pdf>] [19 <./stra
+) [18] [19] [20 <./xbeamalignment.pdf>] [21 <./ybeamalignment.pdf>] [22 <./stra
 hlfuehrung-station1.pdf> <./strahlfuehrung-station2.pdf> <./strahlfuehrung-stat
 ion3.pdf> <./strahlfuehrung-station4.pdf> <./strahlfuehrung-station5.pdf> <./st
 rahlfuehrung-station6.pdf>]
@@ -649,11 +649,11 @@ rahlfuehrung-station6.pdf>]
 
  (./kap05.tex
 Kapitel 5.
-[20
+[23
 
 
 
-]) [21]
+]) [24]
 \openout2 = `literatur.aux'.
 
  (./literatur.tex
@@ -664,7 +664,7 @@ Overfull \hbox (47.53886pt too wide) in paragraph at lines 4--5
 er/SALOME[]-VersMappe[]-
  []
 
-) [22
+) [25
 
 
 
@@ -673,11 +673,11 @@ er/SALOME[]-VersMappe[]-
 Here is how much of TeX's memory you used:
  5398 strings out of 493633
  77310 string characters out of 3143378
- 179544 words of memory out of 3000000
+ 180550 words of memory out of 3000000
  8518 multiletter control sequences out of 15000+200000
  15303 words of font info for 59 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 47i,17n,47p,674b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,17n,47p,674b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texli
 ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texliv
 e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texli
@@ -694,10 +694,10 @@ t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on protokoll_salome.pdf (26 pages, 1675272 bytes).
+Output written on protokoll_salome.pdf (25 pages, 1675161 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
+ 244 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
