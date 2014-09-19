@@ -35,7 +35,7 @@ $\eps_y$ und ihre normierten Varianten $\eps_{x,n}$ und $\eps_{y,n}$ erhalten.
 
 Für ersteres werden wir den Elektronenstrahl $n$-mal auf verschiedene Weise
 transformieren (über verschiedene Strecken oder Optiken), wobei $b_i$
-die Größe $\langle x^2\rangle$ nach der $i$-ten Transformation und
+die Größe $\langle x^2 \rangle$ nach der $i$-ten Transformation und
 $R^{(i)}$ die entsprechende Transformationsmatrix ist.
 Das für großes $n$ überbestimmte lineare Gleichungssystem
 \begin{equation} \label{eq:transform}
@@ -52,7 +52,11 @@ Grundlage für einen $\chi^2$-Fit sein.
 Die Fehlerfortpflanzung zum Fehler, den wir daraus für die Emittanz $\eps_{x,n}$
 erhalten, geschieht gemäß:
 \begin{equation}
-	1+1=2
+	\sigma_{\eps}^2 =
+	\sum_{i} \left(\frac{\partial \eps}{\partial a_i}\right)^2 \sigma_{a_i}^2 + 
+	\sum_{\stackrel{i,j}{i\neq j}} \left(\frac{\partial \eps}{\partial a_i}\right)
+			   \left(\frac{\partial \eps}{\partial a_j}\right)
+			   \text{cov}(a_i, a_j)
 \end{equation}
 
 \section{Messung durch Variation des Quadrupolstroms}

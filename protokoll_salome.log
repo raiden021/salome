@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  18 SEP 2014 16:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.6)  19 SEP 2014 11:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -541,16 +541,16 @@ Kapitel 3.
 ] <xemittanzplot.pdf, id=60, 361.35pt x 252.945pt>
 File: xemittanzplot.pdf Graphic file (type pdf)
  <use xemittanzplot.pdf>
-Package pdftex.def Info: xemittanzplot.pdf used on input line 146.
+Package pdftex.def Info: xemittanzplot.pdf used on input line 150.
 (pdftex.def)             Requested size: 220.50887pt x 154.35797pt.
 
 <yemittanzplot.pdf, id=61, 361.35pt x 252.945pt>
 File: yemittanzplot.pdf Graphic file (type pdf)
  <use yemittanzplot.pdf>
-Package pdftex.def Info: yemittanzplot.pdf used on input line 149.
+Package pdftex.def Info: yemittanzplot.pdf used on input line 153.
 (pdftex.def)             Requested size: 220.50887pt x 154.35797pt.
 
-Overfull \hbox (18.27759pt too wide) in paragraph at lines 146--151
+Overfull \hbox (18.27759pt too wide) in paragraph at lines 150--155
 [][] [] 
  []
 
@@ -694,7 +694,7 @@ t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on protokoll_salome.pdf (25 pages, 1675161 bytes).
+Output written on protokoll_salome.pdf (25 pages, 1678101 bytes).
 PDF statistics:
  244 PDF objects out of 1000 (max. 8388607)
  165 compressed objects within 2 object streams
